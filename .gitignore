@@ -1,0 +1,44 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# === Virtual environment ===
+venv/
+.venv/
+env/
+
+# === Dataset images (too large for GitHub) ===
+ja_scraper/images/
+ja_scraper/natural_images/
+ja_scraper/lab_images/
+*.jpg
+*.jpeg
+*.png
+!docs/*.png
+!docs/*.jpg
+
+# === CSV datasets (large; track selectively) ===
+# Uncomment the line below if CSVs are too large:
+# ja_scraper/*.csv
+
+# === AI context files (local only) ===
+GEMINI.md
+CLAUDE.md
+
+# === OS / IDE ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Credentials / secrets ===
+.env
+*.key
+*.pem

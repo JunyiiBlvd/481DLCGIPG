@@ -1,0 +1,55 @@
+============================================================
+CSC-481 DATASET AUDIT REPORT
+============================================================
+
+Total rows in labeled CSV: 27923
+Images present and valid:  27923
+Images corrupt/too small:  0
+CSV rows with no image:    0
+Orphan images (no CSV row):29331
+
+IMAGES WITH VALID FILES PER TIER:
+  ✓ budget                7017  ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+  ✓ mid_range            13929  ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+  ✓ premium               4184  ███████████████████████████████████████████████████████████████████████████████████
+  ✓ investment_grade      2793  ███████████████████████████████████████████████████████
+  ✗ unlabeled                0  
+
+CUT GRADES:
+  Excellent             23539
+  Very Good              3925
+  Good                    414
+  Ideal                    45
+
+COLOR GRADES:
+  D                      2147
+  E                      2444
+  F                      2749
+  G                      3472
+  H                      4262
+  I                      4911
+  J                      4564
+
+CLARITY GRADES:
+  IF                     1301
+  VVS1                   3391
+  VVS2                   3103
+  VS1                    3711
+  VS2                    4074
+  SI1                    5496
+  SI2                    4039
+  I1                     2709
+
+CLASS BALANCE RATIO (min/max): 0.20
+  ✗ Severe imbalance — use weighted sampling or oversample minority classes
+
+
+RECOMMENDED SPLIT (70/15/15 stratified):
+  budget                total= 7017  train=4911  val=1052  test=1054
+  investment_grade      total= 2793  train=1955  val= 418  test= 420
+  mid_range             total=13929  train=9750  val=2089  test=2090
+  premium               total= 4184  train=2928  val= 627  test= 629
+  TOTAL                 total=27923  train=19546  val=4188  test=4189
+
+ML READINESS SUMMARY:
+  ✓ READY — sufficient data for Stage 2 training

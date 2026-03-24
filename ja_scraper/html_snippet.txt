@@ -1,0 +1,401 @@
+Page HTML length: 893220
+
+<!DOCTYPE html><html lang="en" style="overflow: hidden; box-sizing: border-box; padding-right: 0px;"><head><meta name="emotion-insertion-point" content=""> <meta charset="utf-8"> <meta name="viewport" content="width=device-width,initial-scale=1"> <base href="https://www.jamesallen.com">    <meta name="styled-components-container">    <title>All Diamonds - Magnified in 360° HD | JamesAllen.com</title><meta data-rh="true" property="og:type" content="website"><meta data-rh="true" property="og:site_name" content="James Allen"><meta data-rh="true" property="og:image" content="https://ion.jamesallen.com/images/James-Allen-Ring-Box.jpg"><meta data-rh="true" name="google-site-verification" content="dbcjuk23MSV8WRG8KJqqMadsYF6EHQHSqb4oQ-s2PGY"><meta data-rh="true" name="format-detection" content="telephone=no"><link rel="preconnect" href="https://ecommo--ion.jamesallen.com"><link data-rh="true" rel="preconnect" href="https://ion.jamesallen.com"><link data-rh="true" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true"><link data-rh="true" rel="preconnect" href="https://cdn.cookielaw.org"><link data-rh="true" rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v18/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJ3xzHGGVFM.woff2" as="font" type="font/woff2" crossorigin="true"><link data-rh="true" rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v18/pe0OMImSLYBIv1o4X1M8cce4OdVisMz5nZRqy6cmmmU3t3NeCAAFOvV9SNjBznuBdlEl2g.woff2" as="font" type="font/woff2" crossorigin="true"><link data-rh="true" rel="preload" href="https://fonts.gstatic.com/s/gildadisplay/v14/t5tmIRoYMoaYG0WEOh7HwMeR3T7Prw.woff2" as="font" type="font/woff2" crossorigin="true"><link data-rh="true" rel="icon" type="image/png" href="https://ecommo--ion.jamesallen.com/ja-main/favicon.4a54a.ico"><link data-rh="true" rel="apple-touch-icon" sizes="120x120" href="https://ecommo--ion.jamesallen.com/ja-main/apple-touch-icon-120x120.f212f.png"><link data-rh="true" rel="apple-touch-icon" sizes="152x152" href="https://ecommo--ion.jamesallen.com/ja-main/apple-touch-icon-152x152.b4b0e.png"><link data-rh="true" rel="apple-touch-icon" sizes="180x180" href="https://ecommo--ion.jamesallen.com/ja-main/apple-touch-icon-180x180.facf9.png"><style data-rh="true">
+body,
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  min-height: 100vh;
+}
+body {
+  font-family: "Nunito Sans";
+  font-family: var(--brand-font);
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  border: 0;
+  /* font-size: 100%; */
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: initial;
+}
+a::selection,
+abbr::selection,
+acronym::selection,
+address::selection,
+applet::selection,
+article::selection,
+aside::selection,
+audio::selection,
+b::selection,
+big::selection,
+blockquote::selection,
+body::selection,
+canvas::selection,
+caption::selection,
+center::selection,
+cite::selection,
+code::selection,
+dd::selection,
+del::selection,
+details::selection,
+dfn::selection,
+div::selection,
+dl::selection,
+dt::selection,
+em::selection,
+embed::selection,
+fieldset::selection,
+figcaption::selection,
+figure::selection,
+footer::selection,
+form::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+header::selection,
+hgroup::selection,
+html::selection,
+i::selection,
+iframe::selection,
+img::selection,
+ins::selection,
+kbd::selection,
+label::selection,
+legend::selection,
+li::selection,
+mark::selection,
+menu::selection,
+nav::selection,
+object::selection,
+ol::selection,
+output::selection,
+p::selection,
+pre::selection,
+q::selection,
+ruby::selection,
+s::selection,
+samp::selection,
+section::selection,
+small::selection,
+span::selection,
+strike::selection,
+strong::selection,
+sub::selection,
+summary::selection,
+sup::selection,
+table::selection,
+tbody::selection,
+td::selection,
+tfoot::selection,
+th::selection,
+thead::selection,
+time::selection,
+tr::selection,
+tt::selection,
+u::selection,
+ul::selection,
+var::selection,
+video::selection {
+  background: var(--brand-selection-color, rgba(255, 128, 129, 0.561));
+}
+html {
+  box-sizing: border-box;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+:focus,a:focus {
+  outline: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none;
+}
+s {
+  text-decoration: line-through;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  height: auto;
+  margin: 0;
+}
+input[type="number"] {
+  -webkit-appearance: textfield;
+  appearance: textfield;
+}
+input[type="search"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+audio,
+canvas,
+video {
+  *zoom: 1;
+  display: inline-block;
+  *display: inline;
+  max-width: 100%;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+a {
+  color: #1a1a1a;
+  color: var(--brand-text-color, #1a1a1a);
+  cursor: pointer;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+fieldset {
+  border: 1px solid silver;
+  border: 1px solid var(--brand-border-color, silver);
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: initial;
+  vertical-align: middle;
+}
+button,
+input {
+  box-sizing: border-box;
+  line-height: normal;
+}
+button {
+  border: none;
+  background: none;
+  outline: none;
+
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  appearance: button;
+  cursor: pointer;
+  *overflow: visible;
+  padding: 0;
+}
+button[disabled],
+html input[disabled] {
+  cursor: not-allowed;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  *height: 13px;
+  padding: 0;
+  *width: 13px;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+button,
+html,
+input,
+select,
+textarea {
+  color: var(--brand-text-color);
+}
+::selection {
+  background: var(--brand-selection-color, rgba(255, 128, 129, 0.561));
+  text-shadow: none;
+}
+img {
+  vertical-align: middle;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+textarea {
+  resize: vertical;
+}
+hr {
+  color: inherit;
+  height: 0;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: initial;
+}
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+progress {
+  vertical-align: initial;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  appearance: button;
+  font: inherit;
+}
+
+/* do not remove - start ///////////////////////////*/
+/* CSS specific to iOS devices */
+/* fixing auto zoom in in ios mobile when input has font size less then 16px */
+@supports (-webkit-touch-callout: none) {
+  select,
+  textarea,
+  input {
+    font-size: 16px !important;
+  }
+}
+/* do not remove - end ///////////////////////////*/
+</st

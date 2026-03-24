@@ -1,0 +1,79 @@
+{
+  "url": "https://www.jamesallen.com/service-api/ja-product-api/diamond/v/2/",
+  "method": "POST",
+  "headers": {
+    "sec-ch-ua-platform": "\"Linux\"",
+    "referer": "https://www.jamesallen.com/loose-diamonds/all-diamonds/?Color=G,H&Clarity=VS2,VS1&Cut=Very+Good,Ideal&CaratFrom=0.50&CaratTo=0.70&PriceFrom=0&PriceTo=99999&ViewsOptions=List",
+    "withcredentials": "true",
+    "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+    "uzlc": "7f90007c223dad-3810-42f4-8c68-d70fd946fc2e1-17743321550350-002a1698ddb814416101010132155648giu9Ej4bbad969",
+    "sec-ch-ua-mobile": "?0",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 -- CSC481-academic-research",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json"
+  },
+  "body": {
+    "query": "query ($currency: currencies, $isOnSale: Boolean, $sort: sortBy, $lab: [Int] , $price: intRange, $page: pager, $depth: floatRange, $ratio: floatRange, $carat: floatRange, $tableSize: floatRange, $color: intRange, $cut: intRange, $shapeID: [Int], $clarity: intRange, $shippingDays: Int, $isExpressShipping: Boolean, $addBannerPlaceholder: Boolean, $colorIntensityID: [Int]\n    $isFancy: Boolean, $isLabDiamond: Boolean, $polish: [Int], $symmetry: [Int], $flour: [Int], $fancyColorID: Int, $supplierID: Int) {\n    searchByIDs(currency : $currency ,lab: $lab ,isOnSale: $isOnSale, sort: $sort, price: $price, page: $page, depth: $depth, ratio: $ratio, carat: $carat, tableSize: $tableSize, color: $color, cut: $cut, shapeID: $shapeID, clarity: $clarity, shippingDays: $shippingDays, isExpressShipping: $isExpressShipping, addBannerPlaceholder: $addBannerPlaceholder, colorIntensityID: $colorIntensityID, isFancy: $isFancy, isLabDiamond: $isLabDiamond, polish: $polish, symmetry:$symmetry, flour: $flour, fancyColorID: $fancyColorID, supplierID: $supplierID) {\n      hits\n      pageNumber\n      numberOfPages\n      total\n      items {\n        \n    productID\n    sku\n    productType\n    generalType\n    isExpressShipping\n    galleryUrl\n    title\n    shortTitle\n    description\n    itemID\n    sku\n    categories\n    shippingDate\n    shippingDates{\n    shippingDate {\n      date\n      byValentines\n      byNewYears\n      byXmas\n      byMothersDay\n      isFastShipping\n    } invShippingDate {\n      date\n      byValentines\n      byNewYears\n      byXmas\n      byMothersDay\n      isFastShipping\n    }}\n    isFirmShipping\n    price\n    originalPrice\n    salePrice\n    discountPercentageValue\n    discountPercentageName\n    usdPrice\n    usdSalePrice\n    url\n    metaTitle\n    metaDescription\n    targetSite\n    status {\n      id\n      name\n    }\n    jewel {\n      ViewMode\n      isOnStore\n      noSale      \n      disclaimer {\n        name\n      }\n      twinMatchedProductID\n      isBab\n      babProps {\n        productID\n      }\n      matchingItems{\n        title\n        url\n        relationTypeID\n        product {\n          media {\n            gallery\n          }\n        }\n      }\n      allMedia {\n        shape\n        isDefaultShape\n        orbitvu{\n          ratio100{\n            image{stage}\n            video{stage}\n          }\n        }\n        main {\n          stageDisplayType\n          stage\n          stageSet\n          galleryDisplayType\n          gallery\n          gallerySet\n          cart\n          thumb\n        }\n       sold {\n         title\n         carat\n         stage\n         stageSet\n         thumb\n        }\n      }\n      stones {\n        stoneType\n        quantity\n        clarity\n        placement\n        shape\n        totalCarat\n        color\n        measurements(measurements:true)\n        enhancementTypeID\n        enhancementTypeName\n        settingTypeID\n        settingTypeName\n      }\n      width\n      length\n      metal {\n        type\n        backingTypeID\n        chainTypeID\n        claspTypeID\n        backingTypeName\n        chainTypeName\n        chainLength\n        claspTypeName\n      }\n      groups {\n        metal {\n          metalID\n          type\n          price\n          salePrice\n          productID\n          product {\n            productID\n            productType\n            generalType\n            categories\n            title\n            sku\n            status {\n              id\n              name\n            }\n            shippingDate\n            price\n            salePrice\n            url\n            metaTitle\n            metaDescription\n          }\n        }\n        carat {\n          carat\n        }\n        quality {\n          productID\n        }\n        ringSize {\n          ringSize\n        }\n        gemstone {\n          productID\n        }\n        pearl {\n          Measurements\n        }\n      }\n      indexed\n      isDYO\n      modelSku\n      stoneRange {\n        minCarat\n        maxCarat\n      }\n      ringSize {\n        min\n        max\n        step\n        defaultSize\n      }\n      isCenterRequired\n    }\n    media {\n      thumb\n      hearts\n      arrows\n      gallery\n      gallerySet\n      galleryDisplayType\n      stageDisplayType\n      segomaPhotoID\n      tab\n      stage\n      stageSet\n      supperZoom\n      supperZoomSet\n      sideView\n      cert\n      cert2\n      cart\n    }\n    stone {\n      certNumber\n      simpleColor\n      species\n      variety\n      treatment\n      ratio\n      isTrueHearts\n      isGemstonePair\n      fancyColorOvertone\n      measurements\n      measureLength\n      measureWidth\n      measureDepth\n      isLabDiamond\n      isArgyle\n      carat\n      culet {\n        id\n        name\n        fullName\n      }\n      girdle\n      shape {\n        id\n        name\n      }\n      color {\n        id\n        name\n        isFancy\n      }\n      cut {\n        id\n        name\n      }\n      clarity {\n        id\n        name\n      }\n      lab {\n        id\n        name\n      }\n      lab2 {\n        id\n        name\n      }\n      flour {\n        id\n        name\n        fullName\n      }\n      symmetry {\n        id\n        name\n        fullName\n      }\n      polish {\n        id\n        name\n        fullName\n      }\n      colorIntensity {\n        id\n        name\n      }\n      depth\n      tableSize\n    }\n    \n      }\n    }\n    shippingDates {\n      dates{\n        val\n        text\n        specialDate\n        isDefault\n      }\n    }\n  }\n  ",
+    "variables": {
+      "price": {
+        "from": 0,
+        "to": 99999
+      },
+      "page": {
+        "count": 4,
+        "size": 8,
+        "number": 1
+      },
+      "depth": {
+        "from": 46,
+        "to": 78
+      },
+      "carat": {
+        "from": 0.5,
+        "to": 0.7
+      },
+      "tableSize": {
+        "from": 50,
+        "to": 80
+      },
+      "color": {
+        "from": 4,
+        "to": 5
+      },
+      "cut": {
+        "from": 1,
+        "to": 3
+      },
+      "shapeID": [
+        1
+      ],
+      "clarity": {
+        "from": 5,
+        "to": 6
+      },
+      "shippingDays": 999,
+      "polish": [
+        4,
+        3,
+        2
+      ],
+      "symmetry": [
+        4,
+        3,
+        2
+      ],
+      "flour": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "currency": "USD",
+      "ratio": {
+        "from": 0.9,
+        "to": 2.75
+      }
+    }
+  },
+  "body_raw": "{\"query\":\"query ($currency: currencies, $isOnSale: Boolean, $sort: sortBy, $lab: [Int] , $price: intRange, $page: pager, $depth: floatRange, $ratio: floatRange, $carat: floatRange, $tableSize: floatRange, $color: intRange, $cut: intRange, $shapeID: [Int], $clarity: intRange, $shippingDays: Int, $isExpressShipping: Boolean, $addBannerPlaceholder: Boolean, $colorIntensityID: [Int]\\n    $isFancy: Boolean, $isLabDiamond: Boolean, $polish: [Int], $symmetry: [Int], $flour: [Int], $fancyColorID: Int, $supplierID: Int) {\\n    searchByIDs(currency : $currency ,lab: $lab ,isOnSale: $isOnSale, sort: $sort, price: $price, page: $page, depth: $depth, ratio: $ratio, carat: $carat, tableSize: $tableSize, color: $color, cut: $cut, shapeID: $shapeID, clarity: $clarity, shippingDays: $shippingDays, isExpressShipping: $isExpressShipping, addBannerPlaceholder: $addBannerPlaceholder, colorIntensityID: $colorIntensityID, isFancy: $isFancy, isLabDiamond: $isLabDiamond, polish: $polish, symmetry:$symmetry, flour: $flour, fancyColorID: $fancyColorID, supplierID: $supplierID) {\\n      hits\\n      pageNumber\\n      numberOfPages\\n      total\\n      items {\\n        \\n    productID\\n    sku\\n    productType\\n    generalType\\n    isExpressShipping\\n    galleryUrl\\n    title\\n    shortTitle\\n    description\\n    itemID\\n    sku\\n    categories\\n    shippingDate\\n    shippingDates{\\n    shippingDate {\\n      date\\n      byValentines\\n      byNewYears\\n      byXmas\\n      byMothersDay\\n      isFastShipping\\n    } invShippingDate {\\n      date\\n      byValentines\\n      byNewYears\\n      byXmas\\n      byMothersDay\\n      isFastShipping\\n    }}\\n    isFirmShipping\\n    price\\n    originalPrice\\n    salePrice\\n    discountPercentageValue\\n    discountPercentageName\\n    usdPrice\\n    usdSalePrice\\n    url\\n    metaTitle\\n    metaDescription\\n    targetSite\\n    status {\\n      id\\n      name\\n    }\\n    jewel {\\n      ViewMode\\n      isOnStore\\n      noSale      \\n      disclaimer {\\n        name\\n      }\\n      twinMatchedProductID\\n      isBab\\n      babProps {\\n        productID\\n      }\\n      matchingItems{\\n        title\\n        url\\n        relationTypeID\\n        product {\\n          media {\\n            gallery\\n          }\\n        }\\n      }\\n      allMedia {\\n        shape\\n        isDefaultShape\\n        orbitvu{\\n          ratio100{\\n            image{stage}\\n            video{stage}\\n          }\\n        }\\n        main {\\n          stageDisplayType\\n          stage\\n          stageSet\\n          galleryDisplayType\\n          gallery\\n          gallerySet\\n          cart\\n          thumb\\n        }\\n       sold {\\n         title\\n         carat\\n         stage\\n         stageSet\\n         thumb\\n        }\\n      }\\n      stones {\\n        stoneType\\n        quantity\\n        clarity\\n        placement\\n        shape\\n        totalCarat\\n        color\\n        measurements(measurements:true)\\n        enhancementTypeID\\n        enhancementTypeName\\n        settingTypeID\\n        settingTypeName\\n      }\\n      width\\n      length\\n      metal {\\n        type\\n        backingTypeID\\n        chainTypeID\\n        claspTypeID\\n        backingTypeName\\n        chainTypeName\\n        chainLength\\n        claspTypeName\\n      }\\n      groups {\\n        metal {\\n          metalID\\n          type\\n          price\\n          salePrice\\n          productID\\n          product {\\n            productID\\n            productType\\n            generalType\\n            categories\\n            title\\n            sku\\n            status {\\n              id\\n              name\\n            }\\n            shippingDate\\n            price\\n            salePrice\\n            url\\n            metaTitle\\n            metaDescription\\n          }\\n        }\\n        carat {\\n          carat\\n        }\\n        quality {\\n          productID\\n        }\\n        ringSize {\\n          ringSize\\n        }\\n        gemstone {\\n          productID\\n        }\\n        pearl {\\n          Measurements\\n        }\\n      }\\n      indexed\\n      isDYO\\n      modelSku\\n      stoneRange {\\n        minCarat\\n        maxCarat\\n      }\\n      ringSize {\\n        min\\n        max\\n        step\\n        defaultSize\\n      }\\n      isCenterRequired\\n    }\\n    media {\\n      thumb\\n      hearts\\n      arrows\\n      gallery\\n      gallerySet\\n      galleryDisplayType\\n      stageDisplayType\\n      segomaPhotoID\\n      tab\\n      stage\\n      stageSet\\n      supperZoom\\n      supperZoomSet\\n      sideView\\n      cert\\n      cert2\\n      cart\\n    }\\n    stone {\\n      certNumber\\n      simpleColor\\n      species\\n      variety\\n      treatment\\n      ratio\\n      isTrueHearts\\n      isGemstonePair\\n      fancyColorOvertone\\n      measurements\\n      measureLength\\n      measureWidth\\n      measureDepth\\n      isLabDiamond\\n      isArgyle\\n      carat\\n      culet {\\n        id\\n        name\\n        fullName\\n      }\\n      girdle\\n      shape {\\n        id\\n        name\\n      }\\n      color {\\n        id\\n        name\\n        isFancy\\n      }\\n      cut {\\n        id\\n        name\\n      }\\n      clarity {\\n        id\\n        name\\n      }\\n      lab {\\n        id\\n        name\\n      }\\n      lab2 {\\n        id\\n        name\\n      }\\n      flour {\\n        id\\n        name\\n        fullName\\n      }\\n      symmetry {\\n        id\\n        name\\n        fullName\\n      }\\n      polish {\\n        id\\n        name\\n        fullName\\n      }\\n      colorIntensity {\\n        id\\n        name\\n      }\\n      depth\\n      tableSize\\n    }\\n    \\n      }\\n    }\\n    shippingDates {\\n      dates{\\n        val\\n        text\\n        specialDate\\n        isDefault\\n      }\\n    }\\n  }\\n  \",\"variables\":{\"price\":{\"from\":0,\"to\":99999},\"page\":{\"count\":4,\"size\":8,\"number\":1},\"depth\":{\"from\":46,\"to\":78},\"carat\":{\"from\":0.5,\"to\":0.7},\"tableSize\":{\"from\":50,\"to\":80},\"color\":{\"from\":4,\"to\":5},\"cut\":{\"from\":1,\"to\":3},\"shapeID\":[1],\"clarity\":{\"from\":5,\"to\":6},\"shippingDays\":999,\"polish\":[4,3,2],\"symmetry\":[4,3,2],\"flour\":[8,5,2,1],\"currency\":\"USD\",\"ratio\":{\"from\":0.9,\"to\":2.75}}}"
+}

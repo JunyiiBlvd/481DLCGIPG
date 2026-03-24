@@ -1,0 +1,17 @@
+{
+  "csv_natural": 27923,
+  "csv_lab": 29333,
+  "csv_total": 57256,
+  "images_on_disk": 57254,
+  "matched": 57254,
+  "orphan_csv": 2,
+  "orphan_images": 0,
+  "url_set_but_missing": 2,
+  "no_url": 0,
+  "match_rate_pct": 99.9965,
+  "orphan_image_pct": 0.0,
+  "tier_counts": {
+    "unlabeled": 57254
+  },
+  "result": "PASS"
+}

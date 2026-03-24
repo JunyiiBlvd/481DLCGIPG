@@ -1,0 +1,4808 @@
+{
+  "data": {
+    "searchByIDs": {
+      "hits": 3090,
+      "pageNumber": 1,
+      "numberOfPages": 387,
+      "total": 185574,
+      "items": [
+        [
+          {
+            "productID": 26355565,
+            "sku": "25732943",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "IGI 0.55 Carat H-VS2 Excellent Cut Round Diamond",
+            "shortTitle": "IGI 0.55 Carat Round Diamond",
+            "description": "This 0.55 carat round diamond H color VS2 clarity has Excellent proportions and a diamond grading report from IGI",
+            "itemID": 25732943,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 530,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 530,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.55-carat-h-color-vs2-clarity-excellent-cut-sku-25732943",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/41205847/Diamond/25732943/Diamond-round-0.55-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/41205847/Diamond/25732943/Diamond-round-0.55-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/41205847/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 41205847,
+              "tab": "sgmdirect/photoID/41205847/Diamond/25732943/Diamond-round-0.55-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/41205847/Diamond/25732943/Diamond-round-0.55-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/41205847/",
+              "supperZoom": "sgmdirect/photoID/41205847/Diamond/25732943/Diamond-round-0.55-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/41205847/",
+              "sideView": "sgmdirect/photoID/41205847/Diamond/25732943/Diamond-round-0.55-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/3C635598-05EF-450A-B4B8-A483BF5723D7",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/41205847/Diamond/25732943/Diamond-round-0.55-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.22x5.25x3.27",
+              "measureLength": 5.22,
+              "measureWidth": 5.25,
+              "measureDepth": 3.27,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.55,
+              "culet": {
+                "id": 7,
+                "name": "PO",
+                "fullName": "Pointed"
+              },
+              "girdle": "Medium",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 6,
+                "name": "VS2"
+              },
+              "lab": {
+                "id": 3,
+                "name": "IGI"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 16,
+                "name": "SLT",
+                "fullName": "Slight"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 62.5,
+              "tableSize": 57
+            }
+          },
+          {
+            "productID": 25731353,
+            "sku": "25117001",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "IGI 0.56 Carat H-VS2 Excellent Cut Round Diamond",
+            "shortTitle": "IGI 0.56 Carat Round Diamond",
+            "description": "This 0.56 carat round diamond H color VS2 clarity has Excellent proportions and a diamond grading report from IGI",
+            "itemID": 25117001,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 550,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 550,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.56-carat-h-color-vs2-clarity-excellent-cut-sku-25117001",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/40303755/Diamond/25117001/Diamond-round-0.56-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/40303755/Diamond/25117001/Diamond-round-0.56-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/40303755/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 40303755,
+              "tab": "sgmdirect/photoID/40303755/Diamond/25117001/Diamond-round-0.56-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/40303755/Diamond/25117001/Diamond-round-0.56-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/40303755/",
+              "supperZoom": "sgmdirect/photoID/40303755/Diamond/25117001/Diamond-round-0.56-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/40303755/",
+              "sideView": "sgmdirect/photoID/40303755/Diamond/25117001/Diamond-round-0.56-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/BF7B332D-55D1-4FFF-89F3-DBEB41CFFF41",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/40303755/Diamond/25117001/Diamond-round-0.56-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.18x5.21x3.31",
+              "measureLength": 5.18,
+              "measureWidth": 5.21,
+              "measureDepth": 3.31,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.56,
+              "culet": {
+                "id": 7,
+                "name": "PO",
+                "fullName": "Pointed"
+              },
+              "girdle": "Slightly Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 6,
+                "name": "VS2"
+              },
+              "lab": {
+                "id": 3,
+                "name": "IGI"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 16,
+                "name": "SLT",
+                "fullName": "Slight"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 63.6,
+              "tableSize": 56
+            }
+          },
+          {
+            "productID": 28040294,
+            "sku": "27390413",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "IGI 0.50 Carat H-VS2 Excellent Cut Round Diamond",
+            "shortTitle": "IGI 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond H color VS2 clarity has Excellent proportions and a diamond grading report from IGI",
+            "itemID": 27390413,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 550,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 550,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-h-color-vs2-clarity-excellent-cut-sku-27390413",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/44236639/Diamond/27390413/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/44236639/Diamond/27390413/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/44236639/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 44236639,
+              "tab": "sgmdirect/photoID/44236639/Diamond/27390413/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/44236639/Diamond/27390413/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/44236639/",
+              "supperZoom": "sgmdirect/photoID/44236639/Diamond/27390413/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/44236639/",
+              "sideView": "sgmdirect/photoID/44236639/Diamond/27390413/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/4A5B650B-7067-4474-9F06-B7AE057DD691",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/44236639/Diamond/27390413/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.01x5.04x3.16",
+              "measureLength": 5.01,
+              "measureWidth": 5.04,
+              "measureDepth": 3.16,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 7,
+                "name": "PO",
+                "fullName": "Pointed"
+              },
+              "girdle": "Medium to Slightly Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 6,
+                "name": "VS2"
+              },
+              "lab": {
+                "id": 3,
+                "name": "IGI"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 16,
+                "name": "SLT",
+                "fullName": "Slight"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 62.9,
+              "tableSize": 56
+            }
+          },
+          {
+            "productID": 27715610,
+            "sku": "27066590",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.50 Carat H-VS2 Very Good Cut Round Diamond",
+            "shortTitle": "GIA 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond H color VS2 clarity has Very Good proportions and a diamond grading report from GIA",
+            "itemID": 27066590,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-26T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-26T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 550,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 550,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-h-color-vs2-clarity-very-good-cut-sku-27066590",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/39299194/Diamond/27066590/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/39299194/Diamond/27066590/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/39299194/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 39299194,
+              "tab": "sgmdirect/photoID/39299194/Diamond/27066590/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/39299194/Diamond/27066590/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/39299194/",
+              "supperZoom": "sgmdirect/photoID/39299194/Diamond/27066590/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/39299194/",
+              "sideView": "sgmdirect/photoID/39299194/Diamond/27066590/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/CA4915CC-234A-4175-83DA-B2B0C0838C08",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/39299194/Diamond/27066590/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "4.89x4.94x3.18",
+              "measureLength": 4.89,
+              "measureWidth": 4.94,
+              "measureDepth": 3.18,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 3,
+                "name": "Very Good"
+              },
+              "clarity": {
+                "id": 6,
+                "name": "VS2"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 5,
+                "name": "M",
+                "fullName": "Medium"
+              },
+              "symmetry": {
+                "id": 3,
+                "name": "VG",
+                "fullName": "Very Good"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 64.8,
+              "tableSize": 56
+            }
+          },
+          {
+            "productID": 26004934,
+            "sku": "25387839",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "IGI 0.50 Carat H-VS1 Very Good Cut Round Diamond",
+            "shortTitle": "IGI 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond H color VS1 clarity has Very Good proportions and a diamond grading report from IGI",
+            "itemID": 25387839,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": false,
+            "price": 570,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 570,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-h-color-vs1-clarity-very-good-cut-sku-25387839",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/43550157/Diamond/25387839/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/43550157/Diamond/25387839/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/43550157/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 43550157,
+              "tab": "sgmdirect/photoID/43550157/Diamond/25387839/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/43550157/Diamond/25387839/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/43550157/",
+              "supperZoom": "sgmdirect/photoID/43550157/Diamond/25387839/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/43550157/",
+              "sideView": "sgmdirect/photoID/43550157/Diamond/25387839/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/432A27C7-E1F8-442E-8398-BDA63B8411E6",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/43550157/Diamond/25387839/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "4.9x4.93x3.18",
+              "measureLength": 4.9,
+              "measureWidth": 4.93,
+              "measureDepth": 3.18,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 7,
+                "name": "PO",
+                "fullName": "Pointed"
+              },
+              "girdle": "Slightly Thick to Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 3,
+                "name": "Very Good"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 3,
+                "name": "IGI"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 16,
+                "name": "SLT",
+                "fullName": "Slight"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 64.7,
+              "tableSize": 57
+            }
+          },
+          {
+            "productID": 27123112,
+            "sku": "26480772",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "IGI 0.51 Carat H-VS1 Excellent Cut Round Diamond",
+            "shortTitle": "IGI 0.51 Carat Round Diamond",
+            "description": "This 0.51 carat round diamond H color VS1 clarity has Excellent proportions and a diamond grading report from IGI",
+            "itemID": 26480772,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 570,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 570,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.51-carat-h-color-vs1-clarity-excellent-cut-sku-26480772",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/43548697/Diamond/26480772/Diamond-round-0.51-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/43548697/Diamond/26480772/Diamond-round-0.51-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/43548697/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 43548697,
+              "tab": "sgmdirect/photoID/43548697/Diamond/26480772/Diamond-round-0.51-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/43548697/Diamond/26480772/Diamond-round-0.51-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/43548697/",
+              "supperZoom": "sgmdirect/photoID/43548697/Diamond/26480772/Diamond-round-0.51-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/43548697/",
+              "sideView": "sgmdirect/photoID/43548697/Diamond/26480772/Diamond-round-0.51-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/CD92C3F2-02AD-4D3C-8F8D-FEE280D2BC66",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/43548697/Diamond/26480772/Diamond-round-0.51-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.18x5.21x3.07",
+              "measureLength": 5.18,
+              "measureWidth": 5.21,
+              "measureDepth": 3.07,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.51,
+              "culet": {
+                "id": 7,
+                "name": "PO",
+                "fullName": "Pointed"
+              },
+              "girdle": "Thin to Medium",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 3,
+                "name": "IGI"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 1,
+                "name": "NN",
+                "fullName": "None"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 59.1,
+              "tableSize": 59
+            }
+          },
+          {
+            "productID": 28397821,
+            "sku": "27746088",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.52 Carat H-VS2 Excellent Cut Round Diamond",
+            "shortTitle": "GIA 0.52 Carat Round Diamond",
+            "description": "This 0.52 carat round diamond H color VS2 clarity has Excellent proportions and a diamond grading report from GIA",
+            "itemID": 27746088,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 570,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 570,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.52-carat-h-color-vs2-clarity-excellent-cut-sku-27746088",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/43761148/Diamond/27746088/Diamond-round-0.52-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/43761148/Diamond/27746088/Diamond-round-0.52-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/43761148/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 43761148,
+              "tab": "sgmdirect/photoID/43761148/Diamond/27746088/Diamond-round-0.52-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/43761148/Diamond/27746088/Diamond-round-0.52-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/43761148/",
+              "supperZoom": "sgmdirect/photoID/43761148/Diamond/27746088/Diamond-round-0.52-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/43761148/",
+              "sideView": "sgmdirect/photoID/43761148/Diamond/27746088/Diamond-round-0.52-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/25DDA9CA-77AF-44F1-B91C-8652E9D2D89D",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/43761148/Diamond/27746088/Diamond-round-0.52-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.19x5.22x3.16",
+              "measureLength": 5.19,
+              "measureWidth": 5.22,
+              "measureDepth": 3.16,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.52,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Medium to Slightly Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 6,
+                "name": "VS2"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 8,
+                "name": "S",
+                "fullName": "Strong"
+              },
+              "symmetry": {
+                "id": 3,
+                "name": "VG",
+                "fullName": "Very Good"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 60.7,
+              "tableSize": 59
+            }
+          },
+          {
+            "productID": 26004777,
+            "sku": "25387682",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "IGI 0.50 Carat H-VS1 Very Good Cut Round Diamond",
+            "shortTitle": "IGI 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond H color VS1 clarity has Very Good proportions and a diamond grading report from IGI",
+            "itemID": 25387682,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": false,
+            "price": 580,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 580,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-h-color-vs1-clarity-very-good-cut-sku-25387682",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/43995236/Diamond/25387682/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/43995236/Diamond/25387682/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/43995236/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 43995236,
+              "tab": "sgmdirect/photoID/43995236/Diamond/25387682/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/43995236/Diamond/25387682/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/43995236/",
+              "supperZoom": "sgmdirect/photoID/43995236/Diamond/25387682/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/43995236/",
+              "sideView": "sgmdirect/photoID/43995236/Diamond/25387682/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/2C1F8083-2B6B-441D-80B3-09ED85047D58",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/43995236/Diamond/25387682/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "4.98x5x3.17",
+              "measureLength": 4.98,
+              "measureWidth": 5,
+              "measureDepth": 3.17,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 7,
+                "name": "PO",
+                "fullName": "Pointed"
+              },
+              "girdle": "Medium to Slightly Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 3,
+                "name": "Very Good"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 3,
+                "name": "IGI"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 1,
+                "name": "NN",
+                "fullName": "None"
+              },
+              "symmetry": {
+                "id": 3,
+                "name": "VG",
+                "fullName": "Very Good"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 63.5,
+              "tableSize": 57
+            }
+          }
+        ],
+        [
+          {
+            "productID": 27608517,
+            "sku": "26961182",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "IGI 0.50 Carat H-VS1 Very Good Cut Round Diamond",
+            "shortTitle": "IGI 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond H color VS1 clarity has Very Good proportions and a diamond grading report from IGI",
+            "itemID": 26961182,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": false,
+            "price": 580,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 580,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-h-color-vs1-clarity-very-good-cut-sku-26961182",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/42992628/Diamond/26961182/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/42992628/Diamond/26961182/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/42992628/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 42992628,
+              "tab": "sgmdirect/photoID/42992628/Diamond/26961182/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/42992628/Diamond/26961182/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/42992628/",
+              "supperZoom": "sgmdirect/photoID/42992628/Diamond/26961182/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/42992628/",
+              "sideView": "sgmdirect/photoID/42992628/Diamond/26961182/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/B407975D-8131-468A-BE00-742A32DAD5DB",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/42992628/Diamond/26961182/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "4.95x4.98x3.13",
+              "measureLength": 4.95,
+              "measureWidth": 4.98,
+              "measureDepth": 3.13,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 7,
+                "name": "PO",
+                "fullName": "Pointed"
+              },
+              "girdle": "Slightly Thick to Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 3,
+                "name": "Very Good"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 3,
+                "name": "IGI"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 1,
+                "name": "NN",
+                "fullName": "None"
+              },
+              "symmetry": {
+                "id": 3,
+                "name": "VG",
+                "fullName": "Very Good"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 62.9,
+              "tableSize": 59
+            }
+          },
+          {
+            "productID": 26280483,
+            "sku": "25657945",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.50 Carat G-VS2 Very Good Cut Round Diamond",
+            "shortTitle": "GIA 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond G color VS2 clarity has Very Good proportions and a diamond grading report from GIA",
+            "itemID": 25657945,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 580,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 580,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-g-color-vs2-clarity-very-good-cut-sku-25657945",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/41075660/Diamond/25657945/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/41075660/Diamond/25657945/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/41075660/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 41075660,
+              "tab": "sgmdirect/photoID/41075660/Diamond/25657945/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/41075660/Diamond/25657945/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/41075660/",
+              "supperZoom": "sgmdirect/photoID/41075660/Diamond/25657945/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/41075660/",
+              "sideView": "sgmdirect/photoID/41075660/Diamond/25657945/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/02C5CE50-DC85-4D76-BCB1-60AE6109DA71",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/41075660/Diamond/25657945/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "4.97x4.99x3.18",
+              "measureLength": 4.97,
+              "measureWidth": 4.99,
+              "measureDepth": 3.18,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Slightly Thick to Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 4,
+                "name": "G",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 3,
+                "name": "Very Good"
+              },
+              "clarity": {
+                "id": 6,
+                "name": "VS2"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 8,
+                "name": "S",
+                "fullName": "Strong"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 63.8,
+              "tableSize": 59
+            }
+          },
+          {
+            "productID": 28760524,
+            "sku": "28107947",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "IGI 0.51 Carat H-VS1 Excellent Cut Round Diamond",
+            "shortTitle": "IGI 0.51 Carat Round Diamond",
+            "description": "This 0.51 carat round diamond H color VS1 clarity has Excellent proportions and a diamond grading report from IGI",
+            "itemID": 28107947,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 590,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 590,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.51-carat-h-color-vs1-clarity-excellent-cut-sku-28107947",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/44282562/Diamond/28107947/Diamond-round-0.51-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/44282562/Diamond/28107947/Diamond-round-0.51-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/44282562/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 44282562,
+              "tab": "sgmdirect/photoID/44282562/Diamond/28107947/Diamond-round-0.51-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/44282562/Diamond/28107947/Diamond-round-0.51-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/44282562/",
+              "supperZoom": "sgmdirect/photoID/44282562/Diamond/28107947/Diamond-round-0.51-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/44282562/",
+              "sideView": "sgmdirect/photoID/44282562/Diamond/28107947/Diamond-round-0.51-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/069DE553-57BC-403D-84AF-71A5B0F141A7",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/44282562/Diamond/28107947/Diamond-round-0.51-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.07x5.12x3.18",
+              "measureLength": 5.07,
+              "measureWidth": 5.12,
+              "measureDepth": 3.18,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.51,
+              "culet": {
+                "id": 7,
+                "name": "PO",
+                "fullName": "Pointed"
+              },
+              "girdle": "Medium to Slightly Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 3,
+                "name": "IGI"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 1,
+                "name": "NN",
+                "fullName": "None"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 62.4,
+              "tableSize": 59
+            }
+          },
+          {
+            "productID": 29102139,
+            "sku": "28446786",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "IGI 0.54 Carat H-VS1 Excellent Cut Round Diamond",
+            "shortTitle": "IGI 0.54 Carat Round Diamond",
+            "description": "This 0.54 carat round diamond H color VS1 clarity has Excellent proportions and a diamond grading report from IGI",
+            "itemID": 28446786,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": false,
+            "price": 600,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 600,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.54-carat-h-color-vs1-clarity-excellent-cut-sku-28446786",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/44754729/Diamond/28446786/Diamond-round-0.54-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/44754729/Diamond/28446786/Diamond-round-0.54-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/44754729/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 44754729,
+              "tab": "sgmdirect/photoID/44754729/Diamond/28446786/Diamond-round-0.54-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/44754729/Diamond/28446786/Diamond-round-0.54-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/44754729/",
+              "supperZoom": "sgmdirect/photoID/44754729/Diamond/28446786/Diamond-round-0.54-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/44754729/",
+              "sideView": "sgmdirect/photoID/44754729/Diamond/28446786/Diamond-round-0.54-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/0C423289-A3A8-4251-9B65-C08762843A9F",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/44754729/Diamond/28446786/Diamond-round-0.54-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.22x5.26x3.2",
+              "measureLength": 5.22,
+              "measureWidth": 5.26,
+              "measureDepth": 3.2,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.54,
+              "culet": {
+                "id": 7,
+                "name": "PO",
+                "fullName": "Pointed"
+              },
+              "girdle": "Medium",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 3,
+                "name": "IGI"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 1,
+                "name": "NN",
+                "fullName": "None"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 61.2,
+              "tableSize": 59
+            }
+          },
+          {
+            "productID": 27114259,
+            "sku": "26471919",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.50 Carat H-VS2 Very Good Cut Round Diamond",
+            "shortTitle": "GIA 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond H color VS2 clarity has Very Good proportions and a diamond grading report from GIA",
+            "itemID": 26471919,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-04-03T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-04-03T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 600,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 600,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-h-color-vs2-clarity-very-good-cut-sku-26471919",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/42037217/Diamond/26471919/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/42037217/Diamond/26471919/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/42037217/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 42037217,
+              "tab": "sgmdirect/photoID/42037217/Diamond/26471919/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/42037217/Diamond/26471919/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/42037217/",
+              "supperZoom": "sgmdirect/photoID/42037217/Diamond/26471919/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/42037217/",
+              "sideView": "sgmdirect/photoID/42037217/Diamond/26471919/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/BEE4A02F-AED8-438E-824E-CA810A152019",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/42037217/Diamond/26471919/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "4.9x4.95x3.19",
+              "measureLength": 4.9,
+              "measureWidth": 4.95,
+              "measureDepth": 3.19,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Slightly Thick to Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 3,
+                "name": "Very Good"
+              },
+              "clarity": {
+                "id": 6,
+                "name": "VS2"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 1,
+                "name": "NN",
+                "fullName": "None"
+              },
+              "symmetry": {
+                "id": 4,
+                "name": "GD",
+                "fullName": "Good"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 64.7,
+              "tableSize": 58
+            }
+          },
+          {
+            "productID": 27458384,
+            "sku": "26811553",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "IGI 0.58 Carat H-VS1 Excellent Cut Round Diamond",
+            "shortTitle": "IGI 0.58 Carat Round Diamond",
+            "description": "This 0.58 carat round diamond H color VS1 clarity has Excellent proportions and a diamond grading report from IGI",
+            "itemID": 26811553,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 610,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 610,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.58-carat-h-color-vs1-clarity-excellent-cut-sku-26811553",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/43531714/Diamond/26811553/Diamond-round-0.58-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/43531714/Diamond/26811553/Diamond-round-0.58-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/43531714/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 43531714,
+              "tab": "sgmdirect/photoID/43531714/Diamond/26811553/Diamond-round-0.58-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/43531714/Diamond/26811553/Diamond-round-0.58-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/43531714/",
+              "supperZoom": "sgmdirect/photoID/43531714/Diamond/26811553/Diamond-round-0.58-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/43531714/",
+              "sideView": "sgmdirect/photoID/43531714/Diamond/26811553/Diamond-round-0.58-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/9484E184-2983-4A54-A047-0452879E78D9",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/43531714/Diamond/26811553/Diamond-round-0.58-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.29x5.32x3.33",
+              "measureLength": 5.29,
+              "measureWidth": 5.32,
+              "measureDepth": 3.33,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.58,
+              "culet": {
+                "id": 7,
+                "name": "PO",
+                "fullName": "Pointed"
+              },
+              "girdle": "Medium",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 3,
+                "name": "IGI"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 16,
+                "name": "SLT",
+                "fullName": "Slight"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 62.9,
+              "tableSize": 57
+            }
+          },
+          {
+            "productID": 28350847,
+            "sku": "27699302",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.50 Carat H-VS1 Very Good Cut Round Diamond",
+            "shortTitle": "GIA 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond H color VS1 clarity has Very Good proportions and a diamond grading report from GIA",
+            "itemID": 27699302,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-26T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-26T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 610,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 610,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-h-color-vs1-clarity-very-good-cut-sku-27699302",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/42765937/Diamond/27699302/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/42765937/Diamond/27699302/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/42765937/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 42765937,
+              "tab": "sgmdirect/photoID/42765937/Diamond/27699302/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/42765937/Diamond/27699302/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/42765937/",
+              "supperZoom": "sgmdirect/photoID/42765937/Diamond/27699302/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/42765937/",
+              "sideView": "sgmdirect/photoID/42765937/Diamond/27699302/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/02F38852-2ED3-4C06-9DE5-278D19042056",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/42765937/Diamond/27699302/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "4.9x4.96x3.18",
+              "measureLength": 4.9,
+              "measureWidth": 4.96,
+              "measureDepth": 3.18,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Slightly Thick to Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 3,
+                "name": "Very Good"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 1,
+                "name": "NN",
+                "fullName": "None"
+              },
+              "symmetry": {
+                "id": 3,
+                "name": "VG",
+                "fullName": "Very Good"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 64.4,
+              "tableSize": 58
+            }
+          },
+          {
+            "productID": 27775970,
+            "sku": "27126796",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.50 Carat G-VS2 Very Good Cut Round Diamond",
+            "shortTitle": "GIA 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond G color VS2 clarity has Very Good proportions and a diamond grading report from GIA",
+            "itemID": 27126796,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-26T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-26T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 610,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 610,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-g-color-vs2-clarity-very-good-cut-sku-27126796",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/42639395/Diamond/27126796/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/42639395/Diamond/27126796/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/42639395/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 42639395,
+              "tab": "sgmdirect/photoID/42639395/Diamond/27126796/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/42639395/Diamond/27126796/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/42639395/",
+              "supperZoom": "sgmdirect/photoID/42639395/Diamond/27126796/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/42639395/",
+              "sideView": "sgmdirect/photoID/42639395/Diamond/27126796/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/85FEBD2C-0D0D-428B-95FB-1184E5D06347",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/42639395/Diamond/27126796/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "4.91x4.95x3.18",
+              "measureLength": 4.91,
+              "measureWidth": 4.95,
+              "measureDepth": 3.18,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Slightly Thick to Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 4,
+                "name": "G",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 3,
+                "name": "Very Good"
+              },
+              "clarity": {
+                "id": 6,
+                "name": "VS2"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 5,
+                "name": "M",
+                "fullName": "Medium"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 64.6,
+              "tableSize": 57
+            }
+          }
+        ],
+        [
+          {
+            "productID": 27777523,
+            "sku": "27128349",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.50 Carat H-VS2 Very Good Cut Round Diamond",
+            "shortTitle": "GIA 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond H color VS2 clarity has Very Good proportions and a diamond grading report from GIA",
+            "itemID": 27128349,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-26T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-26T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 610,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 610,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-h-color-vs2-clarity-very-good-cut-sku-27128349",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/42420568/Diamond/27128349/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/42420568/Diamond/27128349/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/42420568/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 42420568,
+              "tab": "sgmdirect/photoID/42420568/Diamond/27128349/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/42420568/Diamond/27128349/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/42420568/",
+              "supperZoom": "sgmdirect/photoID/42420568/Diamond/27128349/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/42420568/",
+              "sideView": "sgmdirect/photoID/42420568/Diamond/27128349/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/54AC74C4-0306-40ED-8D54-0EA27A94EFED",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/42420568/Diamond/27128349/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "4.88x4.94x3.17",
+              "measureLength": 4.88,
+              "measureWidth": 4.94,
+              "measureDepth": 3.17,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Very Thin to Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 3,
+                "name": "Very Good"
+              },
+              "clarity": {
+                "id": 6,
+                "name": "VS2"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 1,
+                "name": "NN",
+                "fullName": "None"
+              },
+              "symmetry": {
+                "id": 3,
+                "name": "VG",
+                "fullName": "Very Good"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 64.6,
+              "tableSize": 58
+            }
+          },
+          {
+            "productID": 28596672,
+            "sku": "27944394",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.50 Carat H-VS1 Very Good Cut Round Diamond",
+            "shortTitle": "GIA 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond H color VS1 clarity has Very Good proportions and a diamond grading report from GIA",
+            "itemID": 27944394,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 610,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 610,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-h-color-vs1-clarity-very-good-cut-sku-27944394",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/44255529/Diamond/27944394/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/44255529/Diamond/27944394/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/44255529/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 44255529,
+              "tab": "sgmdirect/photoID/44255529/Diamond/27944394/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/44255529/Diamond/27944394/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/44255529/",
+              "supperZoom": "sgmdirect/photoID/44255529/Diamond/27944394/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/44255529/",
+              "sideView": "sgmdirect/photoID/44255529/Diamond/27944394/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/A036893B-14A5-4BB6-9139-0FAA64272CC5",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/44255529/Diamond/27944394/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "4.92x4.98x3.16",
+              "measureLength": 4.92,
+              "measureWidth": 4.98,
+              "measureDepth": 3.16,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Slightly Thick to Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 3,
+                "name": "Very Good"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 5,
+                "name": "M",
+                "fullName": "Medium"
+              },
+              "symmetry": {
+                "id": 3,
+                "name": "VG",
+                "fullName": "Very Good"
+              },
+              "polish": {
+                "id": 3,
+                "name": "VG",
+                "fullName": "Very Good"
+              },
+              "colorIntensity": null,
+              "depth": 63.9,
+              "tableSize": 57
+            }
+          },
+          {
+            "productID": 29181973,
+            "sku": "28526312",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.50 Carat H-VS1 Excellent Cut Round Diamond",
+            "shortTitle": "GIA 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond H color VS1 clarity has Excellent proportions and a diamond grading report from GIA",
+            "itemID": 28526312,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-04-03T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-04-03T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 610,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 610,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-h-color-vs1-clarity-excellent-cut-sku-28526312",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/44746907/Diamond/28526312/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/44746907/Diamond/28526312/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/44746907/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 44746907,
+              "tab": "sgmdirect/photoID/44746907/Diamond/28526312/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/44746907/Diamond/28526312/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/44746907/",
+              "supperZoom": "sgmdirect/photoID/44746907/Diamond/28526312/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/44746907/",
+              "sideView": "sgmdirect/photoID/44746907/Diamond/28526312/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/8D0AF0A2-206E-4FB2-BF30-9549B60328FA",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/44746907/Diamond/28526312/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.11x5.18x3.06",
+              "measureLength": 5.11,
+              "measureWidth": 5.18,
+              "measureDepth": 3.06,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Thin to Slightly Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 8,
+                "name": "S",
+                "fullName": "Strong"
+              },
+              "symmetry": {
+                "id": 3,
+                "name": "VG",
+                "fullName": "Very Good"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 59.6,
+              "tableSize": 62
+            }
+          },
+          {
+            "productID": 24664630,
+            "sku": "24061150",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.50 Carat G-VS2 Excellent Cut Round Diamond",
+            "shortTitle": "GIA 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond G color VS2 clarity has Excellent proportions and a diamond grading report from GIA",
+            "itemID": 24061150,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 610,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 610,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-g-color-vs2-clarity-excellent-cut-sku-24061150",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/38970214/Diamond/24061150/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/38970214/Diamond/24061150/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/38970214/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 38970214,
+              "tab": "sgmdirect/photoID/38970214/Diamond/24061150/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/38970214/Diamond/24061150/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/38970214/",
+              "supperZoom": "sgmdirect/photoID/38970214/Diamond/24061150/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/38970214/",
+              "sideView": "sgmdirect/photoID/38970214/Diamond/24061150/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/A77FF265-4E94-45CF-AD9A-D95BA8947E56",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/38970214/Diamond/24061150/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.04x5.06x3.16",
+              "measureLength": 5.04,
+              "measureWidth": 5.06,
+              "measureDepth": 3.16,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Slightly Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 4,
+                "name": "G",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 6,
+                "name": "VS2"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 8,
+                "name": "S",
+                "fullName": "Strong"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 62.6,
+              "tableSize": 57
+            }
+          },
+          {
+            "productID": 27875843,
+            "sku": "27226438",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.51 Carat H-VS1 Excellent Cut Round Diamond",
+            "shortTitle": "GIA 0.51 Carat Round Diamond",
+            "description": "This 0.51 carat round diamond H color VS1 clarity has Excellent proportions and a diamond grading report from GIA",
+            "itemID": 27226438,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-26T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-26T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 610,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 610,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.51-carat-h-color-vs1-clarity-excellent-cut-sku-27226438",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/41586626/Diamond/27226438/Diamond-round-0.51-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/41586626/Diamond/27226438/Diamond-round-0.51-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/41586626/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 41586626,
+              "tab": "sgmdirect/photoID/41586626/Diamond/27226438/Diamond-round-0.51-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/41586626/Diamond/27226438/Diamond-round-0.51-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/41586626/",
+              "supperZoom": "sgmdirect/photoID/41586626/Diamond/27226438/Diamond-round-0.51-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/41586626/",
+              "sideView": "sgmdirect/photoID/41586626/Diamond/27226438/Diamond-round-0.51-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/0BEF69CB-D229-4811-9D5B-BECFA10FA836",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/41586626/Diamond/27226438/Diamond-round-0.51-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.05x5.09x3.18",
+              "measureLength": 5.05,
+              "measureWidth": 5.09,
+              "measureDepth": 3.18,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.51,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Slightly Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 8,
+                "name": "S",
+                "fullName": "Strong"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 62.8,
+              "tableSize": 60
+            }
+          },
+          {
+            "productID": 27721573,
+            "sku": "27072458",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.50 Carat G-VS2 Excellent Cut Round Diamond",
+            "shortTitle": "GIA 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond G color VS2 clarity has Excellent proportions and a diamond grading report from GIA",
+            "itemID": 27072458,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-04-03T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-04-03T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 620,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 620,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-g-color-vs2-clarity-excellent-cut-sku-27072458",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/42810895/Diamond/27072458/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/42810895/Diamond/27072458/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/42810895/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 42810895,
+              "tab": "sgmdirect/photoID/42810895/Diamond/27072458/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/42810895/Diamond/27072458/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/42810895/",
+              "supperZoom": "sgmdirect/photoID/42810895/Diamond/27072458/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/42810895/",
+              "sideView": "sgmdirect/photoID/42810895/Diamond/27072458/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/6A145346-BE1F-4EAB-92CA-957C4A624FD1",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/42810895/Diamond/27072458/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.01x5.06x3.21",
+              "measureLength": 5.01,
+              "measureWidth": 5.06,
+              "measureDepth": 3.21,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Medium to Slightly Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 4,
+                "name": "G",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 6,
+                "name": "VS2"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 8,
+                "name": "S",
+                "fullName": "Strong"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 63.7,
+              "tableSize": 56
+            }
+          },
+          {
+            "productID": 26589452,
+            "sku": "25956086",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.50 Carat G-VS1 Very Good Cut Round Diamond",
+            "shortTitle": "GIA 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond G color VS1 clarity has Very Good proportions and a diamond grading report from GIA",
+            "itemID": 25956086,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-26T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-26T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 620,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 620,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-g-color-vs1-clarity-very-good-cut-sku-25956086",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/40854351/Diamond/25956086/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/40854351/Diamond/25956086/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/40854351/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 40854351,
+              "tab": "sgmdirect/photoID/40854351/Diamond/25956086/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/40854351/Diamond/25956086/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/40854351/",
+              "supperZoom": "sgmdirect/photoID/40854351/Diamond/25956086/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/40854351/",
+              "sideView": "sgmdirect/photoID/40854351/Diamond/25956086/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/891E1A02-557C-4490-AB6C-63E171351A17",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/40854351/Diamond/25956086/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "4.94x4.97x3.2",
+              "measureLength": 4.94,
+              "measureWidth": 4.97,
+              "measureDepth": 3.2,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Slightly Thick to Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 4,
+                "name": "G",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 3,
+                "name": "Very Good"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 8,
+                "name": "S",
+                "fullName": "Strong"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 64.6,
+              "tableSize": 59
+            }
+          },
+          {
+            "productID": 27872824,
+            "sku": "27223419",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.51 Carat H-VS1 Excellent Cut Round Diamond",
+            "shortTitle": "GIA 0.51 Carat Round Diamond",
+            "description": "This 0.51 carat round diamond H color VS1 clarity has Excellent proportions and a diamond grading report from GIA",
+            "itemID": 27223419,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-26T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-26T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 620,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 620,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.51-carat-h-color-vs1-clarity-excellent-cut-sku-27223419",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/42315795/Diamond/27223419/Diamond-round-0.51-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/42315795/Diamond/27223419/Diamond-round-0.51-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/42315795/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 42315795,
+              "tab": "sgmdirect/photoID/42315795/Diamond/27223419/Diamond-round-0.51-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/42315795/Diamond/27223419/Diamond-round-0.51-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/42315795/",
+              "supperZoom": "sgmdirect/photoID/42315795/Diamond/27223419/Diamond-round-0.51-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/42315795/",
+              "sideView": "sgmdirect/photoID/42315795/Diamond/27223419/Diamond-round-0.51-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/E72AE8DE-C6D3-4DE1-A1D5-D2BA91B455A4",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/42315795/Diamond/27223419/Diamond-round-0.51-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.08x5.1x3.19",
+              "measureLength": 5.08,
+              "measureWidth": 5.1,
+              "measureDepth": 3.19,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.51,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Medium to Slightly Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 8,
+                "name": "S",
+                "fullName": "Strong"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 62.7,
+              "tableSize": 55
+            }
+          }
+        ],
+        [
+          {
+            "productID": 28350827,
+            "sku": "27699260",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.50 Carat H-VS1 Very Good Cut Round Diamond",
+            "shortTitle": "GIA 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond H color VS1 clarity has Very Good proportions and a diamond grading report from GIA",
+            "itemID": 27699260,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-26T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-26T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 620,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 620,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-h-color-vs1-clarity-very-good-cut-sku-27699260",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/43094356/Diamond/27699260/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/43094356/Diamond/27699260/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/43094356/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 43094356,
+              "tab": "sgmdirect/photoID/43094356/Diamond/27699260/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/43094356/Diamond/27699260/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/43094356/",
+              "supperZoom": "sgmdirect/photoID/43094356/Diamond/27699260/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/43094356/",
+              "sideView": "sgmdirect/photoID/43094356/Diamond/27699260/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/C88438FC-CB85-4AD8-8F81-9AD540F75DD7",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/43094356/Diamond/27699260/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "4.87x4.94x3.16",
+              "measureLength": 4.87,
+              "measureWidth": 4.94,
+              "measureDepth": 3.16,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 3,
+                "name": "Very Good"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 2,
+                "name": "F",
+                "fullName": "Faint"
+              },
+              "symmetry": {
+                "id": 3,
+                "name": "VG",
+                "fullName": "Very Good"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 64.4,
+              "tableSize": 56
+            }
+          },
+          {
+            "productID": 28069543,
+            "sku": "27418706",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "IGI 0.60 Carat H-VS1 Very Good Cut Round Diamond",
+            "shortTitle": "IGI 0.60 Carat Round Diamond",
+            "description": "This 0.6 carat round diamond H color VS1 clarity has Very Good proportions and a diamond grading report from IGI",
+            "itemID": 27418706,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 620,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 620,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.60-carat-h-color-vs1-clarity-very-good-cut-sku-27418706",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/43219939/Diamond/27418706/Diamond-round-0.6-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/43219939/Diamond/27418706/Diamond-round-0.6-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/43219939/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 43219939,
+              "tab": "sgmdirect/photoID/43219939/Diamond/27418706/Diamond-round-0.6-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/43219939/Diamond/27418706/Diamond-round-0.6-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/43219939/",
+              "supperZoom": "sgmdirect/photoID/43219939/Diamond/27418706/Diamond-round-0.6-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/43219939/",
+              "sideView": "sgmdirect/photoID/43219939/Diamond/27418706/Diamond-round-0.6-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/E7812F4C-1205-411E-931B-37B1FA114790",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/43219939/Diamond/27418706/Diamond-round-0.6-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.23x5.29x3.4",
+              "measureLength": 5.23,
+              "measureWidth": 5.29,
+              "measureDepth": 3.4,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.6,
+              "culet": {
+                "id": 7,
+                "name": "PO",
+                "fullName": "Pointed"
+              },
+              "girdle": "Slightly Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 3,
+                "name": "Very Good"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 3,
+                "name": "IGI"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 16,
+                "name": "SLT",
+                "fullName": "Slight"
+              },
+              "symmetry": {
+                "id": 3,
+                "name": "VG",
+                "fullName": "Very Good"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 64.5,
+              "tableSize": 57
+            }
+          },
+          {
+            "productID": 28095436,
+            "sku": "27444597",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "IGI 0.54 Carat G-VS1 Excellent Cut Round Diamond",
+            "shortTitle": "IGI 0.54 Carat Round Diamond",
+            "description": "This 0.54 carat round diamond G color VS1 clarity has Excellent proportions and a diamond grading report from IGI",
+            "itemID": 27444597,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 620,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 620,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.54-carat-g-color-vs1-clarity-excellent-cut-sku-27444597",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/43539894/Diamond/27444597/Diamond-round-0.54-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/43539894/Diamond/27444597/Diamond-round-0.54-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/43539894/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 43539894,
+              "tab": "sgmdirect/photoID/43539894/Diamond/27444597/Diamond-round-0.54-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/43539894/Diamond/27444597/Diamond-round-0.54-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/43539894/",
+              "supperZoom": "sgmdirect/photoID/43539894/Diamond/27444597/Diamond-round-0.54-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/43539894/",
+              "sideView": "sgmdirect/photoID/43539894/Diamond/27444597/Diamond-round-0.54-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/EB2817BB-CA78-442E-9780-B6A6CDCA1F9C",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/43539894/Diamond/27444597/Diamond-round-0.54-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.16x5.19x3.28",
+              "measureLength": 5.16,
+              "measureWidth": 5.19,
+              "measureDepth": 3.28,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.54,
+              "culet": {
+                "id": 7,
+                "name": "PO",
+                "fullName": "Pointed"
+              },
+              "girdle": "Medium to Slightly Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 4,
+                "name": "G",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 3,
+                "name": "IGI"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 8,
+                "name": "S",
+                "fullName": "Strong"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 63.4,
+              "tableSize": 57
+            }
+          },
+          {
+            "productID": 23463524,
+            "sku": "22871970",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.54 Carat H-VS2 Excellent Cut Round Diamond",
+            "shortTitle": "GIA 0.54 Carat Round Diamond",
+            "description": "This 0.54 carat round diamond H color VS2 clarity has Excellent proportions and a diamond grading report from GIA",
+            "itemID": 22871970,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-26T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-26T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 620,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 620,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.54-carat-h-color-vs2-clarity-excellent-cut-sku-22871970",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/35888837/Diamond/22871970/Diamond-round-0.54-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/35888837/Diamond/22871970/Diamond-round-0.54-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/35888837/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 35888837,
+              "tab": "sgmdirect/photoID/35888837/Diamond/22871970/Diamond-round-0.54-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/35888837/Diamond/22871970/Diamond-round-0.54-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/35888837/",
+              "supperZoom": "sgmdirect/photoID/35888837/Diamond/22871970/Diamond-round-0.54-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/35888837/",
+              "sideView": "sgmdirect/photoID/35888837/Diamond/22871970/Diamond-round-0.54-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/F8F24FBD-64EB-412C-AB75-E39204AE992F",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/35888837/Diamond/22871970/Diamond-round-0.54-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.16x5.19x3.2",
+              "measureLength": 5.16,
+              "measureWidth": 5.19,
+              "measureDepth": 3.2,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.54,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Slightly Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 6,
+                "name": "VS2"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 8,
+                "name": "S",
+                "fullName": "Strong"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 61.7,
+              "tableSize": 61
+            }
+          },
+          {
+            "productID": 26280523,
+            "sku": "25657985",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.50 Carat G-VS1 Very Good Cut Round Diamond",
+            "shortTitle": "GIA 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond G color VS1 clarity has Very Good proportions and a diamond grading report from GIA",
+            "itemID": 25657985,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 620,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 620,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-g-color-vs1-clarity-very-good-cut-sku-25657985",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/41075753/Diamond/25657985/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/41075753/Diamond/25657985/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/41075753/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 41075753,
+              "tab": "sgmdirect/photoID/41075753/Diamond/25657985/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/41075753/Diamond/25657985/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/41075753/",
+              "supperZoom": "sgmdirect/photoID/41075753/Diamond/25657985/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/41075753/",
+              "sideView": "sgmdirect/photoID/41075753/Diamond/25657985/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/5D0BF756-74BC-47C0-AC2A-0949201DDCD3",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/41075753/Diamond/25657985/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.02,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "4.88x4.97x3.19",
+              "measureLength": 4.88,
+              "measureWidth": 4.97,
+              "measureDepth": 3.19,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Medium to Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 4,
+                "name": "G",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 3,
+                "name": "Very Good"
+              },
+              "clarity": {
+                "id": 5,
+                "name": "VS1"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 2,
+                "name": "F",
+                "fullName": "Faint"
+              },
+              "symmetry": {
+                "id": 4,
+                "name": "GD",
+                "fullName": "Good"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 64.7,
+              "tableSize": 56
+            }
+          },
+          {
+            "productID": 23958095,
+            "sku": "23357058",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.51 Carat G-VS2 Excellent Cut Round Diamond",
+            "shortTitle": "GIA 0.51 Carat Round Diamond",
+            "description": "This 0.51 carat round diamond G color VS2 clarity has Excellent proportions and a diamond grading report from GIA",
+            "itemID": 23357058,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-26T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-26T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 620,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 620,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.51-carat-g-color-vs2-clarity-excellent-cut-sku-23357058",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/37036816/Diamond/23357058/Diamond-round-0.51-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/37036816/Diamond/23357058/Diamond-round-0.51-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/37036816/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 37036816,
+              "tab": "sgmdirect/photoID/37036816/Diamond/23357058/Diamond-round-0.51-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/37036816/Diamond/23357058/Diamond-round-0.51-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/37036816/",
+              "supperZoom": "sgmdirect/photoID/37036816/Diamond/23357058/Diamond-round-0.51-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/37036816/",
+              "sideView": "sgmdirect/photoID/37036816/Diamond/23357058/Diamond-round-0.51-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/F2110954-34DC-4B51-9697-B7AEDC85670B",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/37036816/Diamond/23357058/Diamond-round-0.51-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.06x5.1x3.16",
+              "measureLength": 5.06,
+              "measureWidth": 5.1,
+              "measureDepth": 3.16,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.51,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Slightly Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 4,
+                "name": "G",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 6,
+                "name": "VS2"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 8,
+                "name": "S",
+                "fullName": "Strong"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 62.3,
+              "tableSize": 61
+            }
+          },
+          {
+            "productID": 23958027,
+            "sku": "23356990",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.51 Carat G-VS2 Excellent Cut Round Diamond",
+            "shortTitle": "GIA 0.51 Carat Round Diamond",
+            "description": "This 0.51 carat round diamond G color VS2 clarity has Excellent proportions and a diamond grading report from GIA",
+            "itemID": 23356990,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-26T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-26T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 620,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 620,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.51-carat-g-color-vs2-clarity-excellent-cut-sku-23356990",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/36740665/Diamond/23356990/Diamond-round-0.51-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/36740665/Diamond/23356990/Diamond-round-0.51-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/36740665/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 36740665,
+              "tab": "sgmdirect/photoID/36740665/Diamond/23356990/Diamond-round-0.51-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/36740665/Diamond/23356990/Diamond-round-0.51-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/36740665/",
+              "supperZoom": "sgmdirect/photoID/36740665/Diamond/23356990/Diamond-round-0.51-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/36740665/",
+              "sideView": "sgmdirect/photoID/36740665/Diamond/23356990/Diamond-round-0.51-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/D56BD4A4-E76A-4616-8889-DCE8F7D9B44D",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/36740665/Diamond/23356990/Diamond-round-0.51-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "5.05x5.08x3.19",
+              "measureLength": 5.05,
+              "measureWidth": 5.08,
+              "measureDepth": 3.19,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.51,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Medium to Slightly Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 4,
+                "name": "G",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 2,
+                "name": "Excellent"
+              },
+              "clarity": {
+                "id": 6,
+                "name": "VS2"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 8,
+                "name": "S",
+                "fullName": "Strong"
+              },
+              "symmetry": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 62.9,
+              "tableSize": 58
+            }
+          },
+          {
+            "productID": 27157183,
+            "sku": "26514731",
+            "productType": "diamond",
+            "generalType": "stone",
+            "isExpressShipping": false,
+            "galleryUrl": "loose-diamonds/all-diamonds/?Shape=round-cut",
+            "title": "GIA 0.50 Carat H-VS2 Very Good Cut Round Diamond",
+            "shortTitle": "GIA 0.50 Carat Round Diamond",
+            "description": "This 0.5 carat round diamond H color VS2 clarity has Very Good proportions and a diamond grading report from GIA",
+            "itemID": 26514731,
+            "categories": [
+              "999"
+            ],
+            "shippingDate": "2026-03-31T00:00:00.000Z",
+            "shippingDates": {
+              "shippingDate": {
+                "date": "2026-03-31T00:00:00.000Z",
+                "byValentines": false,
+                "byNewYears": false,
+                "byXmas": false,
+                "byMothersDay": false,
+                "isFastShipping": false
+              },
+              "invShippingDate": null
+            },
+            "isFirmShipping": true,
+            "price": 620,
+            "originalPrice": null,
+            "salePrice": null,
+            "discountPercentageValue": null,
+            "discountPercentageName": null,
+            "usdPrice": 620,
+            "usdSalePrice": null,
+            "url": "loose-diamonds/round-cut/0.50-carat-h-color-vs2-clarity-very-good-cut-sku-26514731",
+            "metaTitle": null,
+            "metaDescription": null,
+            "targetSite": "Jamesallen",
+            "status": {
+              "id": 1,
+              "name": "Available"
+            },
+            "jewel": {
+              "ViewMode": null,
+              "isOnStore": null,
+              "noSale": null,
+              "disclaimer": null,
+              "twinMatchedProductID": null,
+              "isBab": null,
+              "babProps": null,
+              "matchingItems": null,
+              "allMedia": null,
+              "stones": null,
+              "width": null,
+              "length": null,
+              "metal": null,
+              "groups": null,
+              "indexed": null,
+              "isDYO": null,
+              "modelSku": null,
+              "stoneRange": null,
+              "ringSize": null,
+              "isCenterRequired": null
+            },
+            "media": {
+              "thumb": "sgmdirect/photoID/42118744/Diamond/26514731/Diamond-round-0.5-Carat_1_first_.jpg",
+              "hearts": null,
+              "arrows": null,
+              "gallery": "sgmdirect/photoID/42118744/Diamond/26514731/Diamond-round-0.5-Carat_3_first_.jpg",
+              "gallerySet": "sgmdirect/photoid/42118744/",
+              "galleryDisplayType": "diamondGallery",
+              "stageDisplayType": "StageBinary",
+              "segomaPhotoID": 42118744,
+              "tab": "sgmdirect/photoID/42118744/Diamond/26514731/Diamond-round-0.5-Carat_2_first_.jpg",
+              "stage": "sgmdirect/photoID/42118744/Diamond/26514731/Diamond-round-0.5-Carat_4_first_.jpg",
+              "stageSet": "sgmdirect/photoid/42118744/",
+              "supperZoom": "sgmdirect/photoID/42118744/Diamond/26514731/Diamond-round-0.5-Carat_0_first_.jpg",
+              "supperZoomSet": "sgmdirect/photoid/42118744/",
+              "sideView": "sgmdirect/photoID/42118744/Diamond/26514731/Diamond-round-0.5-Carat_3_back_.jpg",
+              "cert": "certs/Gertificate/8E72C01F-FC5C-4014-B770-A3594FEB98DF",
+              "cert2": null,
+              "cart": "sgmdirect/photoID/42118744/Diamond/26514731/Diamond-round-0.5-Carat_1_firstSquare_.jpg"
+            },
+            "stone": {
+              "certNumber": null,
+              "simpleColor": null,
+              "species": null,
+              "variety": null,
+              "treatment": null,
+              "ratio": 1.01,
+              "isTrueHearts": false,
+              "isGemstonePair": null,
+              "fancyColorOvertone": null,
+              "measurements": "4.94x4.99x3.18",
+              "measureLength": 4.94,
+              "measureWidth": 4.99,
+              "measureDepth": 3.18,
+              "isLabDiamond": false,
+              "isArgyle": false,
+              "carat": 0.5,
+              "culet": {
+                "id": 1,
+                "name": "N",
+                "fullName": "None"
+              },
+              "girdle": "Slightly Thick to Thick",
+              "shape": {
+                "id": 1,
+                "name": "round"
+              },
+              "color": {
+                "id": 5,
+                "name": "H",
+                "isFancy": false
+              },
+              "cut": {
+                "id": 3,
+                "name": "Very Good"
+              },
+              "clarity": {
+                "id": 6,
+                "name": "VS2"
+              },
+              "lab": {
+                "id": 2,
+                "name": "GIA"
+              },
+              "lab2": null,
+              "flour": {
+                "id": 5,
+                "name": "M",
+                "fullName": "Medium"
+              },
+              "symmetry": {
+                "id": 3,
+                "name": "VG",
+                "fullName": "Very Good"
+              },
+              "polish": {
+                "id": 2,
+                "name": "EX",
+                "fullName": "Excellent"
+              },
+              "colorIntensity": null,
+              "depth": 64.1,
+              "tableSize": 55
+            }
+          }
+        ]
+      ]
+    },
+    "shippingDates": {
+      "dates": [
+        {
+          "val": "999",
+          "text": "Any Date",
+          "specialDate": null,
+          "isDefault": true
+        },
+        {
+          "val": "1",
+          "text": "Wednesday, Mar 25",
+          "specialDate": null,
+          "isDefault": null
+        },
+        {
+          "val": "2",
+          "text": "Thursday, Mar 26",
+          "specialDate": null,
+          "isDefault": null
+        },
+        {
+          "val": "6",
+          "text": "Monday, Mar 30",
+          "specialDate": null,
+          "isDefault": null
+        },
+        {
+          "val": "7",
+          "text": "Tuesday, Mar 31",
+          "specialDate": null,
+          "isDefault": null
+        },
+        {
+          "val": "8",
+          "text": "Wednesday, Apr 01",
+          "specialDate": null,
+          "isDefault": null
+        },
+        {
+          "val": "10",
+          "text": "Friday, Apr 03",
+          "specialDate": null,
+          "isDefault": null
+        },
+        {
+          "val": "13",
+          "text": "Monday, Apr 06",
+          "specialDate": null,
+          "isDefault": null
+        }
+      ]
+    }
+  }
+}
