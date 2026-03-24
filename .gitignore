@@ -42,3 +42,6 @@ Thumbs.db
 .env
 *.key
 *.pem
+
+# === Kaggle upload staging (symlinks + metadata) ===
+kaggle_upload/
