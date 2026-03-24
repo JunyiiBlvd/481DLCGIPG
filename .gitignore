@@ -12,9 +12,9 @@ venv/
 env/
 
 # === Dataset images (too large for GitHub) ===
-ja_scraper/images/
-ja_scraper/natural_images/
-ja_scraper/lab_images/
+ja_scraper/output/images/
+ja_scraper/output/*.csv
+ja_scraper/output/*.json
 *.jpg
 *.jpeg
 *.png
