@@ -1,0 +1,17 @@
+{
+  "val": {
+    "accuracy": 0.892464,
+    "macro_f1": 0.870686
+  },
+  "test": {
+    "accuracy": 0.896146,
+    "macro_f1": 0.874197
+  },
+  "feature_importances": {
+    "carat": 0.783808,
+    "cut": 0.011387,
+    "color": 0.06648,
+    "clarity": 0.138325
+  },
+  "dataset": "be_lab"
+}

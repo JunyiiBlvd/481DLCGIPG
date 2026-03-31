@@ -39,11 +39,7 @@ FAILED_LOG   = OUTPUT_DIR / "download_failures.csv"
 
 # Image dimensions JA uses — we want the highest res still image
 IMAGE_CDN_PATTERNS = [
-    # Modern JA CDN — still image at high resolution
-    "https://cdn1.jamesallen.com/rings/{SHAPE_CODE}/{ID}/still-hi.jpg",
-    "https://cdn1.jamesallen.com/rings/{SHAPE_CODE}/{ID}/still.jpg",
-    "https://cdn1.jamesallen.com/rings/{SHAPE_CODE}/{ID}/image.jpg",
-    # Fallback: use scraped image_url directly
+    # Use scraped image_url directly — cdn1.jamesallen.com patterns return 403
     "{IMAGE_URL}",
 ]
 

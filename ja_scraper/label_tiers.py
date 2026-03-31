@@ -27,7 +27,8 @@ from collections import Counter
 # Paths
 # ─────────────────────────────────────────
 OUTPUT_DIR  = Path("output")
-RAW_CSV     = OUTPUT_DIR / "diamonds_raw.csv"
+NAT_RAW_CSV = OUTPUT_DIR / "diamonds_natural_raw.csv"
+LAB_RAW_CSV = OUTPUT_DIR / "diamonds_lab_raw.csv"
 LABELED_CSV = OUTPUT_DIR / "diamonds_labeled.csv"
 IMAGES_DIR  = OUTPUT_DIR / "images"
 STATS_FILE  = OUTPUT_DIR / "tier_stats.json"
@@ -44,20 +45,16 @@ for d in TIER_DIRS.values():
 
 
 # ─────────────────────────────────────────
-# Load raw CSV
+# Load raw CSVs
 # ─────────────────────────────────────────
-def load_raw():
-    if not RAW_CSV.exists():
-        print(f"ERROR: {RAW_CSV} not found. Run scrape.py first.")
-        sys.exit(1)
-
+def load_csv(path):
+    if not path.exists():
+        return []
     rows = []
-    with open(RAW_CSV, newline="", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
+    with open(path, newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
             rows.append(row)
-
-    print(f"Loaded {len(rows)} rows from {RAW_CSV.name}")
+    print(f"  Loaded {len(rows):,} rows from {path.name}")
     return rows
 
 
@@ -85,24 +82,22 @@ def percentile(values, p):
     return sorted_v[lo] + (sorted_v[hi] - sorted_v[lo]) * (idx - lo)
 
 
-def compute_boundaries(rows):
+def compute_boundaries(rows, label=""):
     prices = [parse_price(r.get("price_usd")) for r in rows]
     prices = [p for p in prices if p is not None and p > 0]
 
     if len(prices) < 100:
-        print(f"WARNING: Only {len(prices)} rows have valid prices. Tier boundaries may be unstable.")
-        print("  Consider running with more data before labeling.")
+        print(f"WARNING: Only {len(prices)} rows have valid prices in {label}. Boundaries may be unstable.")
 
     p25 = percentile(prices, 25)
     p75 = percentile(prices, 75)
     p90 = percentile(prices, 90)
 
-    print(f"\nPrice distribution ({len(prices)} diamonds with price):")
+    print(f"\nPrice distribution — {label} ({len(prices):,} diamonds with price):")
     print(f"  Min:         ${min(prices):>10,.0f}")
-    print(f"  P10:         ${percentile(prices, 10):>10,.0f}")
-    print(f"  P25 (Budget boundary): ${p25:>10,.0f}")
+    print(f"  P25 (Budget boundary):     ${p25:>10,.0f}")
     print(f"  Median:      ${percentile(prices, 50):>10,.0f}")
-    print(f"  P75 (Premium boundary): ${p75:>10,.0f}")
+    print(f"  P75 (Premium boundary):    ${p75:>10,.0f}")
     print(f"  P90 (Investment boundary): ${p90:>10,.0f}")
     print(f"  Max:         ${max(prices):>10,.0f}")
 
@@ -146,15 +141,16 @@ def deduplicate(rows):
 # ─────────────────────────────────────────
 def write_labeled(rows):
     fields = list(rows[0].keys())
-    if "value_tier" not in fields:
-        fields.append("value_tier")
+    for col in ("value_tier", "site"):
+        if col not in fields:
+            fields.append(col)
 
     with open(LABELED_CSV, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(rows)
 
-    print(f"\nWrote {len(rows)} labeled rows to {LABELED_CSV.name}")
+    print(f"\nWrote {len(rows):,} labeled rows to {LABELED_CSV.name}")
 
 
 # ─────────────────────────────────────────
@@ -198,34 +194,39 @@ def organize_images(rows):
 # ─────────────────────────────────────────
 # Print distribution and quality report
 # ─────────────────────────────────────────
-def print_report(rows, p25, p75, p90):
+def print_report(rows, nat_bounds, lab_bounds):
     tier_counts = Counter(r.get("value_tier") for r in rows)
     total = len(rows)
+    n_natural = sum(1 for r in rows if str(r.get("is_lab_diamond","")).lower() not in ("true","1","yes"))
+    n_lab     = total - n_natural
 
     print("\n" + "=" * 55)
-    print("VALUE TIER DISTRIBUTION")
+    print("JAMES ALLEN — VALUE TIER DISTRIBUTION")
     print("=" * 55)
     for tier in ["budget", "mid_range", "premium", "investment_grade", "unlabeled"]:
         n = tier_counts.get(tier, 0)
         pct = 100 * n / total if total else 0
         bar = "█" * int(pct / 2)
-        print(f"  {tier:20s} {n:>6} ({pct:5.1f}%)  {bar}")
+        print(f"  {tier:20s} {n:>7,} ({pct:5.1f}%)  {bar}")
+    print(f"\n  Natural: {n_natural:,}  |  Lab-grown: {n_lab:,}  |  Total: {total:,}")
 
     print("\nDATA QUALITY")
     has_image = sum(1 for r in rows if r.get("image_url"))
     has_cut   = sum(1 for r in rows if r.get("cut"))
     has_color = sum(1 for r in rows if r.get("color"))
     has_cert  = sum(1 for r in rows if r.get("cert_lab"))
-    print(f"  image_url populated:  {has_image}/{total} ({100*has_image/total:.1f}%)")
-    print(f"  cut populated:        {has_cut}/{total}  ({100*has_cut/total:.1f}%)")
-    print(f"  color populated:      {has_color}/{total} ({100*has_color/total:.1f}%)")
-    print(f"  cert_lab populated:   {has_cert}/{total}  ({100*has_cert/total:.1f}%)")
+    print(f"  image_url populated:  {has_image:,}/{total:,} ({100*has_image/total:.1f}%)")
+    print(f"  cut populated:        {has_cut:,}/{total:,}  ({100*has_cut/total:.1f}%)")
+    print(f"  color populated:      {has_color:,}/{total:,} ({100*has_color/total:.1f}%)")
+    print(f"  cert_lab populated:   {has_cert:,}/{total:,}  ({100*has_cert/total:.1f}%)")
 
-    print("\nTIER BOUNDARIES (price USD):")
-    print(f"  Budget         ≤ ${p25:,.0f}")
-    print(f"  Mid-Range      ${p25:,.0f} – ${p75:,.0f}")
-    print(f"  Premium        ${p75:,.0f} – ${p90:,.0f}")
-    print(f"  Investment     > ${p90:,.0f}")
+    print("\nTIER BOUNDARIES (computed independently per subset):")
+    if nat_bounds:
+        p25, p75, p90 = nat_bounds
+        print(f"  NATURAL  — Budget ≤${p25:,.0f}  Mid ≤${p75:,.0f}  Premium ≤${p90:,.0f}  Investment >${p90:,.0f}")
+    if lab_bounds:
+        p25, p75, p90 = lab_bounds
+        print(f"  LAB      — Budget ≤${p25:,.0f}  Mid ≤${p75:,.0f}  Premium ≤${p90:,.0f}  Investment >${p90:,.0f}")
 
     # Check image counts per tier (what's actually downloaded)
     print("\nDOWNLOADED IMAGES PER TIER:")
@@ -270,19 +271,38 @@ def print_report(rows, p25, p75, p90):
 # Main
 # ─────────────────────────────────────────
 def main():
-    rows = load_raw()
-    rows = deduplicate(rows)
-    p25, p75, p90 = compute_boundaries(rows)
+    print("Loading raw CSVs ...")
+    nat_rows = load_csv(NAT_RAW_CSV)
+    lab_rows = load_csv(LAB_RAW_CSV)
 
-    for row in rows:
-        price = parse_price(row.get("price_usd"))
-        row["value_tier"] = assign_tier(price, p25, p75, p90)
+    if not nat_rows and not lab_rows:
+        print("ERROR: No data found. Run scrape_v3.py first.")
+        sys.exit(1)
 
-    write_labeled(rows)
-    organize_images(rows)
-    print_report(rows, p25, p75, p90)
+    nat_rows = deduplicate(nat_rows)
+    lab_rows = deduplicate(lab_rows)
 
-    print("\nDone. Next step: python download_images.py  (if not done yet)")
+    # Compute boundaries INDEPENDENTLY per natural/lab subset
+    nat_bounds = lab_bounds = None
+
+    if nat_rows:
+        nat_bounds = compute_boundaries(nat_rows, "Natural")
+        for row in nat_rows:
+            row["value_tier"] = assign_tier(parse_price(row.get("price_usd")), *nat_bounds)
+            row["site"] = "james_allen"
+
+    if lab_rows:
+        lab_bounds = compute_boundaries(lab_rows, "Lab-grown")
+        for row in lab_rows:
+            row["value_tier"] = assign_tier(parse_price(row.get("price_usd")), *lab_bounds)
+            row["site"] = "james_allen"
+
+    all_rows = nat_rows + lab_rows
+    write_labeled(all_rows)
+    organize_images(all_rows)
+    print_report(all_rows, nat_bounds, lab_bounds)
+
+    print("\nDone. Next step: python download_images.py")
 
 
 if __name__ == "__main__":

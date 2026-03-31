@@ -187,7 +187,18 @@ def call_api(variables, retries=4):
             r = s.post(API_URL, json=payload, timeout=30)
 
             if r.status_code == 200:
-                data = r.json()
+                try:
+                    data = r.json()
+                except json.JSONDecodeError:
+                    # Empty/HTML response = session stale or rate-limited.
+                    # Drop the session so the next get_session() creates a fresh one.
+                    global _session
+                    _session = None
+                    pause = 20 * (attempt + 1)
+                    _log(f"  JSON decode error — session reset, sleeping {pause}s (attempt {attempt+1}/{retries})")
+                    time.sleep(pause)
+                    s = get_session()
+                    continue
 
                 # Check for GraphQL errors
                 if "errors" in data:
@@ -219,7 +230,7 @@ def call_api(variables, retries=4):
             _log(f"  Request error attempt {attempt+1}: {e}")
             time.sleep(2 ** attempt)
 
-    return None
+    return False
 
 # ─────────────────────────────────────────────────────────────────────
 # PARSE ONE ITEM
@@ -372,6 +383,9 @@ def scrape_band(shape, shape_id, carat_min, carat_max,
         wait()
         result = call_api(variables)
 
+        if result is False:
+            _log(f"  API failure (JSON error) — skipping band completion")
+            return band_total, total, False
         if result is None:
             _log(f"  API returned None — stopping band")
             break
@@ -416,7 +430,7 @@ def scrape_band(shape, shape_id, carat_min, carat_max,
 
         page_num += CONFIG["PAGE_COUNT"]
 
-    return band_total, total
+    return band_total, total, True
 
 # ─────────────────────────────────────────────────────────────────────
 # LOGGING
@@ -439,13 +453,6 @@ def main():
     args = parser.parse_args()
 
     prefix = "lab" if args.lab else "natural"
-    RAW_CSV    = OUTPUT_DIR / f"diamonds_{prefix}_raw.csv"
-    CHECKPOINT = OUTPUT_DIR / f"scrape_v3_{prefix}_checkpoint.json"
-
-    if args.reset:
-        CHECKPOINT.unlink(missing_ok=True)
-        RAW_CSV.unlink(missing_ok=True)
-        _log("Cleared checkpoint and CSV")
 
     CONFIG["IS_LAB"]     = args.lab
     CONFIG["PAGE_COUNT"] = args.count
@@ -463,16 +470,8 @@ def main():
         curr = nxt
     CONFIG["CARAT_BANDS"] = bands
 
-    state     = load_checkpoint()
-    seen_ids  = load_seen_ids()
-    completed = set(tuple(b) for b in state["completed_bands"])
-    total     = state["total_collected"]
-
     _log(f"Config: shapes={CONFIG['SHAPES']}  lab={CONFIG['IS_LAB']}  "
          f"items/call={CONFIG['PAGE_COUNT']*CONFIG['PAGE_SIZE']}")
-    _log(f"Resume: {len(seen_ids)} existing  {len(completed)} bands done")
-
-    f, writer = get_writer()
 
     try:
         for shape in CONFIG["SHAPES"]:
@@ -481,40 +480,71 @@ def main():
                 _log(f"Unknown shape: {shape}")
                 continue
 
-            for cmin, cmax in CONFIG["CARAT_BANDS"]:
-                band_key = (shape, cmin, cmax)
-                if band_key in completed:
-                    _log(f"SKIP {shape} {cmin:.2f}–{cmax:.2f}ct")
-                    continue
+            # ── per-shape file paths ──
+            RAW_CSV    = OUTPUT_DIR / f"diamonds_{prefix}_{shape}_raw.csv"
+            CHECKPOINT = OUTPUT_DIR / f"scrape_v3_{prefix}_{shape}_checkpoint.json"
 
-                _log(f"\n── {shape.upper()}  {cmin:.2f}–{cmax:.2f}ct ──")
+            if args.reset:
+                CHECKPOINT.unlink(missing_ok=True)
+                RAW_CSV.unlink(missing_ok=True)
+                _log(f"[{shape}] Cleared checkpoint and CSV")
 
-                n, total = scrape_band(
-                    shape, shape_id, cmin, cmax,
-                    seen_ids, writer, f,
-                    limit=args.limit, total=total,
-                )
+            state     = load_checkpoint()
+            seen_ids  = load_seen_ids()
+            completed = set(tuple(b) for b in state["completed_bands"])
+            total     = state["total_collected"]
 
-                _log(f"  Band done +{n}  running total={total}")
+            _log(f"\n{'='*55}")
+            _log(f"SHAPE: {shape.upper()}  →  {RAW_CSV.name}")
+            _log(f"Resume: {len(seen_ids):,} existing  {len(completed)} bands done")
 
-                completed.add(band_key)
-                state["completed_bands"]  = [list(b) for b in completed]
-                state["total_collected"]  = total
-                save_checkpoint(state)
+            f, writer = get_writer()
+            shape_interrupted = False
 
-                if args.limit and total >= args.limit:
-                    _log(f"Limit {args.limit} reached")
-                    break
+            try:
+                for cmin, cmax in CONFIG["CARAT_BANDS"]:
+                    band_key = (cmin, cmax)
+                    if band_key in completed:
+                        continue
 
-            if args.limit and total >= args.limit:
+                    _log(f"\n── {shape.upper()}  {cmin:.2f}–{cmax:.2f}ct ──")
+
+                    n, total, success = scrape_band(
+                        shape, shape_id, cmin, cmax,
+                        seen_ids, writer, f,
+                        limit=args.limit, total=total,
+                    )
+
+                    _log(f"  Band done +{n}  running total={total}")
+
+                    if not success:
+                        _log(f"  Band FAILED — not marking as completed")
+                        continue
+
+                    completed.add(band_key)
+                    state["completed_bands"] = [list(b) for b in completed]
+                    state["total_collected"] = total
+                    save_checkpoint(state)
+
+                    if args.limit and total >= args.limit:
+                        _log(f"Limit {args.limit} reached")
+                        break
+
+            except KeyboardInterrupt:
+                _log(f"[{shape}] Interrupted — checkpoint saved")
+                shape_interrupted = True
+            finally:
+                f.close()
+
+            n_rows = sum(1 for _ in open(str(RAW_CSV))) - 1 if RAW_CSV.exists() else 0
+            _log(f"\n[{shape}] Done. {n_rows:,} diamonds → {RAW_CSV.name}")
+
+            if shape_interrupted:
                 break
 
     except KeyboardInterrupt:
-        _log("Interrupted — checkpoint saved")
-    finally:
-        f.close()
+        _log("Interrupted — all shape checkpoints saved")
 
-    _log(f"\nDone. {sum(1 for _ in open(str(RAW_CSV)))-1 if RAW_CSV.exists() else 0} diamonds → {RAW_CSV}")
     _log("Next: python label_tiers.py  then  python download_images.py")
 
 if __name__ == "__main__":

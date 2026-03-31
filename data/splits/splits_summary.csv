@@ -1,0 +1,9 @@
+split,train,val,test
+ja_natural (within-site),75380,16153,16154
+ja_lab (within-site),85061,18228,18228
+be_natural (within-site),74865,16042,16043
+be_lab (within-site),182612,39131,39132
+ja_natural (cross-domain),86149,21538,full other site
+ja_lab (cross-domain),97213,24304,full other site
+be_natural (cross-domain),85560,21390,full other site
+be_lab (cross-domain),208700,52175,full other site

@@ -13,17 +13,21 @@ env/
 
 # === Dataset images (too large for GitHub) ===
 ja_scraper/output/images/
-ja_scraper/output/*.csv
-ja_scraper/output/*.json
+be_scraper/output/images/
 *.jpg
 *.jpeg
 *.png
-!docs/*.png
-!docs/*.jpg
+!docs/**/*.png
+!docs/**/*.jpg
 
-# === CSV datasets (large; track selectively) ===
-# Uncomment the line below if CSVs are too large:
-# ja_scraper/*.csv
+# === Scraped / processed datasets (too large for GitHub) ===
+ja_scraper/output/*.csv
+ja_scraper/output/*.json
+be_scraper/output/*.csv
+be_scraper/output/*.json
+data/processed/*.csv
+data/splits/*.csv
+!data/splits/splits_summary.csv
 
 # === AI context files (local only) ===
 GEMINI.md

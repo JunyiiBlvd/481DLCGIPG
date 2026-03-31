@@ -1,21 +1,21 @@
 {
-  "total_diamonds": 27923,
+  "total_diamonds": 171950,
   "tier_counts": {
-    "budget": 7017,
-    "mid_range": 13929,
-    "premium": 4184,
-    "investment_grade": 2793
+    "budget": 43564,
+    "mid_range": 85446,
+    "premium": 25771,
+    "investment_grade": 17169
   },
   "boundaries": {
-    "p25": 720.0,
-    "p75": 6850.0,
-    "p90": 19008.0
+    "p25": 960.0,
+    "p75": 4120.0,
+    "p90": 6050.0
   },
   "data_quality": {
-    "has_image_url": 27923,
-    "has_cut": 27923,
-    "has_color": 27923,
-    "has_cert": 27923
+    "has_image_url": 171950,
+    "has_cut": 171950,
+    "has_color": 171950,
+    "has_cert": 171950
   },
-  "ml_ready_rows": 27923
+  "ml_ready_rows": 171950
 }

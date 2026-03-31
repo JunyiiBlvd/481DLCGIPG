@@ -1,6 +1,6 @@
 #!/bin/bash
 # ============================================================
-# Download DLCGIPG dataset from Kaggle (private)
+# Download DLCGIPG datasets from Kaggle (private)
 # ============================================================
 # Prereqs:
 #   - kaggle CLI installed: pip install kaggle
@@ -10,23 +10,20 @@
 
 set -euo pipefail
 
-# === EDIT THIS to match your Kaggle username ===
-KAGGLE_DATASET="junyiiblvc/ja-diamond-images-4c"
+JA_DATASET="junyiiblvc/ja-diamond-images-4c"
+BE_DATASET="junyiiblvc/be-diamond-images-4c"
 
-DEST="$(cd "$(dirname "$0")/.." && pwd)/ja_scraper/output"
+DEST="$(cd "$(dirname "$0")/.." && pwd)"
 
-echo "Downloading dataset: ${KAGGLE_DATASET}"
-echo "Destination: ${DEST}"
-echo ""
+echo "Downloading JA dataset: ${JA_DATASET}"
+kaggle datasets download -d "${JA_DATASET}" -p "${DEST}/ja_scraper/output" --unzip
 
-mkdir -p "${DEST}"
-
-kaggle datasets download -d "${KAGGLE_DATASET}" -p "${DEST}" --unzip
+echo "Downloading BE dataset: ${BE_DATASET}"
+kaggle datasets download -d "${BE_DATASET}" -p "${DEST}/be_scraper/output" --unzip
 
 echo ""
 echo "=== Download complete ==="
-echo "Contents:"
-ls -la "${DEST}/"
-echo ""
-echo "Image count:"
-find "${DEST}" -type f \( -name "*.jpg" -o -name "*.png" -o -name "*.jpeg" \) | wc -l
+echo "JA image count:"
+find "${DEST}/ja_scraper/output" -type f \( -name "*.jpg" -o -name "*.png" -o -name "*.jpeg" \) | wc -l
+echo "BE image count:"
+find "${DEST}/be_scraper/output" -type f \( -name "*.jpg" -o -name "*.png" -o -name "*.jpeg" \) | wc -l

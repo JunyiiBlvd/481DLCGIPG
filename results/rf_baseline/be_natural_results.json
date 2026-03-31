@@ -1,0 +1,17 @@
+{
+  "val": {
+    "accuracy": 0.833375,
+    "macro_f1": 0.819109
+  },
+  "test": {
+    "accuracy": 0.837063,
+    "macro_f1": 0.82261
+  },
+  "feature_importances": {
+    "carat": 0.804555,
+    "cut": 0.020938,
+    "color": 0.089296,
+    "clarity": 0.085211
+  },
+  "dataset": "be_natural"
+}

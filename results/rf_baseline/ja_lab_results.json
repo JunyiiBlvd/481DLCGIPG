@@ -1,0 +1,17 @@
+{
+  "val": {
+    "accuracy": 0.940257,
+    "macro_f1": 0.922251
+  },
+  "test": {
+    "accuracy": 0.941135,
+    "macro_f1": 0.921715
+  },
+  "feature_importances": {
+    "carat": 0.792592,
+    "cut": 0.011502,
+    "color": 0.051418,
+    "clarity": 0.144488
+  },
+  "dataset": "ja_lab"
+}
