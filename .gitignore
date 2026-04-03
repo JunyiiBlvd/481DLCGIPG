@@ -49,3 +49,6 @@ Thumbs.db
 
 # === Kaggle upload staging (symlinks + metadata) ===
 kaggle_upload/
+
+# === Training results (large files, local only) ===
+results/
