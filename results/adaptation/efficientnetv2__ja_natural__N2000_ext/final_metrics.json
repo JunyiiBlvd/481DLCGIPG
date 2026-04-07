@@ -1,0 +1,62 @@
+{
+  "experiment": "efficientnetv2__ja_natural__N2000_ext",
+  "arch": "efficientnetv2",
+  "source_checkpoint": "/mnt/storage/projects/DLCGIPG/results/training/efficientnetv2__ja_natural__cross/best_model.pth",
+  "adaptation_n": 2000,
+  "note": "Same splits as N2000 original run; max_epochs extended to 20",
+  "ft_train_size": 1600,
+  "ft_val_size": 400,
+  "eval_size": 14043,
+  "best_ft_val_f1": 0.4403504486107411,
+  "converged_early": false,
+  "epochs_run": 20,
+  "hyperparams": {
+    "epochs_max": 20,
+    "lr": 1e-05,
+    "batch_size": 32,
+    "patience": 3,
+    "frozen_blocks": "features[0:5]",
+    "unfrozen": "features[5:8] + classifier"
+  },
+  "test_loss": 1.2880656119044211,
+  "test_accuracy": 0.4734031189916684,
+  "test_macro_f1": 0.40042284387503607,
+  "per_class_f1": {
+    "budget": 0.5639625585023401,
+    "investment_grade": 0.5468021700924581,
+    "mid_range": 0.2530922930542341,
+    "premium": 0.23783435385111182
+  },
+  "confusion_matrix": [
+    [
+      2169,
+      1066,
+      164,
+      214
+    ],
+    [
+      1527,
+      3578,
+      1088,
+      774
+    ],
+    [
+      251,
+      934,
+      532,
+      323
+    ],
+    [
+      132,
+      542,
+      380,
+      369
+    ]
+  ],
+  "label_order": [
+    "budget",
+    "investment_grade",
+    "mid_range",
+    "premium"
+  ]
+}

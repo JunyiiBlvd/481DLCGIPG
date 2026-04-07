@@ -1,0 +1,25 @@
+{
+  "arch": "efficientnetv2",
+  "subset": "ja_natural",
+  "task": "regression",
+  "target": "log(price_usd)",
+  "best_val_log_mae": 0.5191192658834765,
+  "hyperparams": {
+    "epochs_run": 1,
+    "epochs_max": 1,
+    "batch_size": 32,
+    "base_lr": 0.0003,
+    "backbone_lr_scale": 0.1,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "huber_delta": 0.5,
+    "patience": 5
+  },
+  "test_loss": 0.16366490075069295,
+  "test_log_mae": 0.520973483214686,
+  "test_log_rmse": 0.6884989439746891,
+  "test_usd_mae": 3015.681965023376,
+  "test_usd_rmse": 9166.783384472894,
+  "test_usd_med_ape": 35.544102592732344,
+  "n_test": 16154
+}

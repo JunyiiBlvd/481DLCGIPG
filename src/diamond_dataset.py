@@ -85,7 +85,10 @@ class DiamondDataset(Dataset):
         row   = self.records.iloc[idx]
         label = int(row["tier_label"])
 
-        image = Image.open(row["_img_path"]).convert("RGB")
+        try:
+            image = Image.open(row["_img_path"]).convert("RGB")
+        except Exception:
+            image = Image.new("RGB", (224, 224), (128, 128, 128))
         if self.transform:
             image = self.transform(image)
 

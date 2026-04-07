@@ -1,0 +1,57 @@
+{
+  "arch": "vit",
+  "subset": "ja_lab",
+  "cross_domain": true,
+  "best_val_f1": 0.6259523610912132,
+  "hyperparams": {
+    "epochs_run": 40,
+    "epochs_max": 50,
+    "batch_size": 64,
+    "base_lr": 0.0003,
+    "backbone_lr_scale": 0.1,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "patience": 10
+  },
+  "test_loss": 2.784947559144567,
+  "test_accuracy": 0.14665746703465193,
+  "test_macro_f1": 0.12861490853438984,
+  "per_class_f1": {
+    "budget": 0.017302990408124882,
+    "investment_grade": 0.14446872073839567,
+    "mid_range": 0.17051463949438928,
+    "premium": 0.1821732834966495
+  },
+  "confusion_matrix": [
+    [
+      92,
+      911,
+      3200,
+      5999
+    ],
+    [
+      156,
+      1620,
+      4324,
+      12803
+    ],
+    [
+      59,
+      456,
+      1322,
+      3884
+    ],
+    [
+      125,
+      537,
+      939,
+      2705
+    ]
+  ],
+  "label_order": [
+    "budget",
+    "investment_grade",
+    "mid_range",
+    "premium"
+  ]
+}

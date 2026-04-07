@@ -31,13 +31,13 @@ RESULTS_DIR="${PROJECT_ROOT}/results"
 LOG_DIR="${RESULTS_DIR}/training/logs"
 
 # ── hyperparameters ───────────────────────────────────────────────────────────
-EPOCHS=30
+EPOCHS=50
 BATCH_SIZE=64
 BASE_LR=3e-4
 BACKBONE_LR_SCALE=0.1
 WEIGHT_DECAY=1e-4
 DROPOUT=0.3
-PATIENCE=5
+PATIENCE=10
 NUM_WORKERS=8
 
 # ── parse args ────────────────────────────────────────────────────────────────
@@ -54,9 +54,9 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-ARCHS=("resnet50" "efficientnetv2" "vit")
+ARCHS=("vit")
 # training site subsets; test site is derived in train.py (ja→be, be→ja)
-SUBSETS=("ja_natural" "ja_lab" "be_natural" "be_lab")
+SUBSETS=("ja_lab" "be_natural" "be_lab" "ja_natural")
 
 mkdir -p "${LOG_DIR}"
 
@@ -72,7 +72,7 @@ run_cross() {
     echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
     local cmd=(
-        python "${SRC}/train.py"
+        /mnt/storage/projects/DLCGIPG/ja_scraper/venv/bin/python3 "${SRC}/train.py"
         --arch             "${arch}"
         --subset           "${subset}"
         --cross_domain

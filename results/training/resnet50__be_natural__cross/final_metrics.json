@@ -1,0 +1,57 @@
+{
+  "arch": "resnet50",
+  "subset": "be_natural",
+  "cross_domain": true,
+  "best_val_f1": 0.6199508130633756,
+  "hyperparams": {
+    "epochs_run": 39,
+    "epochs_max": 50,
+    "batch_size": 64,
+    "base_lr": 0.0003,
+    "backbone_lr_scale": 0.1,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "patience": 10
+  },
+  "test_loss": 1.8800891717058517,
+  "test_accuracy": 0.3914200817135075,
+  "test_macro_f1": 0.30972480278496173,
+  "per_class_f1": {
+    "budget": 0.2296144660525418,
+    "investment_grade": 0.5407166123778502,
+    "mid_range": 0.18503004917137134,
+    "premium": 0.2835380835380835
+  },
+  "confusion_matrix": [
+    [
+      673,
+      2560,
+      698,
+      344
+    ],
+    [
+      742,
+      4565,
+      1402,
+      828
+    ],
+    [
+      125,
+      1388,
+      508,
+      466
+    ],
+    [
+      47,
+      835,
+      396,
+      577
+    ]
+  ],
+  "label_order": [
+    "budget",
+    "investment_grade",
+    "mid_range",
+    "premium"
+  ]
+}

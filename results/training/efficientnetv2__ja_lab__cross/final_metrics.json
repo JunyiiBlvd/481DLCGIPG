@@ -1,0 +1,57 @@
+{
+  "arch": "efficientnetv2",
+  "subset": "ja_lab",
+  "cross_domain": true,
+  "best_val_f1": 0.6862487295293691,
+  "hyperparams": {
+    "epochs_run": 47,
+    "epochs_max": 50,
+    "batch_size": 64,
+    "base_lr": 0.0003,
+    "backbone_lr_scale": 0.1,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "patience": 10
+  },
+  "test_loss": 2.7128764311131386,
+  "test_accuracy": 0.15496269038127364,
+  "test_macro_f1": 0.1370587340830424,
+  "per_class_f1": {
+    "budget": 0.02510855201057202,
+    "investment_grade": 0.1692529466632748,
+    "mid_range": 0.17075552300744537,
+    "premium": 0.18311791465087732
+  },
+  "confusion_matrix": [
+    [
+      133,
+      1511,
+      3273,
+      5285
+    ],
+    [
+      158,
+      1996,
+      4863,
+      11886
+    ],
+    [
+      46,
+      591,
+      1399,
+      3685
+    ],
+    [
+      55,
+      585,
+      1130,
+      2536
+    ]
+  ],
+  "label_order": [
+    "budget",
+    "investment_grade",
+    "mid_range",
+    "premium"
+  ]
+}

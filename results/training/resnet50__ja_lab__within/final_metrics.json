@@ -1,0 +1,57 @@
+{
+  "arch": "resnet50",
+  "subset": "ja_lab",
+  "cross_domain": false,
+  "best_val_f1": 0.6410365347802185,
+  "hyperparams": {
+    "epochs_run": 30,
+    "epochs_max": 30,
+    "batch_size": 64,
+    "base_lr": 0.0003,
+    "backbone_lr_scale": 0.1,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "patience": 5
+  },
+  "test_loss": 1.0756023196188378,
+  "test_accuracy": 0.6674347158218126,
+  "test_macro_f1": 0.6385629857939,
+  "per_class_f1": {
+    "budget": 0.8066020141738157,
+    "investment_grade": 0.6712541320920191,
+    "mid_range": 0.48616018845700826,
+    "premium": 0.5902356084527569
+  },
+  "confusion_matrix": [
+    [
+      4325,
+      299,
+      9,
+      7
+    ],
+    [
+      1746,
+      4975,
+      1932,
+      440
+    ],
+    [
+      11,
+      378,
+      1651,
+      582
+    ],
+    [
+      2,
+      78,
+      578,
+      1215
+    ]
+  ],
+  "label_order": [
+    "budget",
+    "investment_grade",
+    "mid_range",
+    "premium"
+  ]
+}

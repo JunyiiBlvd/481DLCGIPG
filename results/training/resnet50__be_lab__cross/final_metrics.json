@@ -1,0 +1,57 @@
+{
+  "arch": "resnet50",
+  "subset": "be_lab",
+  "cross_domain": true,
+  "best_val_f1": 0.5637926038372826,
+  "hyperparams": {
+    "epochs_run": 50,
+    "epochs_max": 50,
+    "batch_size": 64,
+    "base_lr": 0.0003,
+    "backbone_lr_scale": 0.1,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "patience": 10
+  },
+  "test_loss": 2.083171927826902,
+  "test_accuracy": 0.27090190915075707,
+  "test_macro_f1": 0.2048132622867378,
+  "per_class_f1": {
+    "budget": 0.022789618062882464,
+    "investment_grade": 0.4089788175782485,
+    "mid_range": 0.15088044485634847,
+    "premium": 0.23660416864947179
+  },
+  "confusion_matrix": [
+    [
+      54,
+      2203,
+      699,
+      1684
+    ],
+    [
+      34,
+      3234,
+      1454,
+      4371
+    ],
+    [
+      9,
+      870,
+      407,
+      1336
+    ],
+    [
+      2,
+      415,
+      213,
+      1243
+    ]
+  ],
+  "label_order": [
+    "budget",
+    "investment_grade",
+    "mid_range",
+    "premium"
+  ]
+}

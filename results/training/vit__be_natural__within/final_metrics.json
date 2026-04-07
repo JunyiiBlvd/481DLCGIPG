@@ -1,0 +1,57 @@
+{
+  "arch": "vit",
+  "subset": "be_natural",
+  "cross_domain": false,
+  "best_val_f1": 0.5870523417691105,
+  "hyperparams": {
+    "epochs_run": 30,
+    "epochs_max": 30,
+    "batch_size": 64,
+    "base_lr": 0.0003,
+    "backbone_lr_scale": 0.1,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "patience": 5
+  },
+  "test_loss": 1.339686866933952,
+  "test_accuracy": 0.6325500218163685,
+  "test_macro_f1": 0.5885130639335568,
+  "per_class_f1": {
+    "budget": 0.7287421741605008,
+    "investment_grade": 0.670773714891362,
+    "mid_range": 0.3981738785232235,
+    "premium": 0.5563624881591411
+  },
+  "confusion_matrix": [
+    [
+      3201,
+      831,
+      48,
+      48
+    ],
+    [
+      1353,
+      5063,
+      1277,
+      266
+    ],
+    [
+      73,
+      908,
+      1003,
+      346
+    ],
+    [
+      30,
+      335,
+      380,
+      881
+    ]
+  ],
+  "label_order": [
+    "budget",
+    "investment_grade",
+    "mid_range",
+    "premium"
+  ]
+}

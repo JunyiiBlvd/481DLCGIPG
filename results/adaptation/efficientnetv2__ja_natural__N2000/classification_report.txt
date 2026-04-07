@@ -1,0 +1,10 @@
+                  precision    recall  f1-score   support
+
+          budget       0.56      0.52      0.54      3613
+investment_grade       0.57      0.39      0.46      6967
+       mid_range       0.21      0.36      0.27      2040
+         premium       0.18      0.31      0.23      1423
+
+        accuracy                           0.41     14043
+       macro avg       0.38      0.39      0.37     14043
+    weighted avg       0.48      0.41      0.43     14043

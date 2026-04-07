@@ -178,18 +178,14 @@ def run_epoch(
 
             if is_train:
                 optimizer.zero_grad(set_to_none=True)
-                with autocast("cuda"):
-                    logits = model(images)
-                    loss   = criterion(logits, labels)
-                scaler.scale(loss).backward()
-                scaler.unscale_(optimizer)
+                logits = model(images)
+                loss   = criterion(logits, labels)
+                loss.backward()
                 nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
-                scaler.step(optimizer)
-                scaler.update()
+                optimizer.step()
             else:
-                with autocast("cuda"):
-                    logits = model(images)
-                    loss   = criterion(logits, labels)
+                logits = model(images)
+                loss   = criterion(logits, labels)
 
             total_loss  += loss.item() * images.size(0)
             preds        = logits.argmax(dim=1).cpu().numpy()

@@ -32,7 +32,7 @@ data/splits/*.csv
 # === AI context files (local only) ===
 GEMINI.md
 CLAUDE.md
-
+PROTOUNO.md
 # === OS / IDE ===
 .DS_Store
 Thumbs.db
@@ -51,4 +51,7 @@ Thumbs.db
 kaggle_upload/
 
 # === Training results (large files, local only) ===
-results/
+results/**/*.pth
+results/**/*.log
+results/training/logs/
+results/aggregated/

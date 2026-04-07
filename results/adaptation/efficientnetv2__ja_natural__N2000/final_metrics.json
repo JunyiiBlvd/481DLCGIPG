@@ -1,0 +1,60 @@
+{
+  "experiment": "efficientnetv2__ja_natural__N2000",
+  "arch": "efficientnetv2",
+  "source_checkpoint": "/mnt/storage/projects/DLCGIPG/results/training/efficientnetv2__ja_natural__cross/best_model.pth",
+  "adaptation_n": 2000,
+  "ft_train_size": 1600,
+  "ft_val_size": 400,
+  "eval_size": 14043,
+  "best_ft_val_f1": 0.35569745789087764,
+  "hyperparams": {
+    "epochs_run": 10,
+    "epochs_max": 10,
+    "lr": 1e-05,
+    "batch_size": 32,
+    "patience": 3,
+    "frozen_blocks": "features[0:5]",
+    "unfrozen": "features[5:8] + classifier"
+  },
+  "test_loss": 1.3132842874744293,
+  "test_accuracy": 0.40860215053763443,
+  "test_macro_f1": 0.37232330569202365,
+  "per_class_f1": {
+    "budget": 0.5365221149690247,
+    "investment_grade": 0.46174910148896114,
+    "mid_range": 0.2654232424677188,
+    "premium": 0.22559876384238992
+  },
+  "confusion_matrix": [
+    [
+      1862,
+      1000,
+      396,
+      355
+    ],
+    [
+      1187,
+      2698,
+      1889,
+      1193
+    ],
+    [
+      181,
+      645,
+      740,
+      474
+    ],
+    [
+      98,
+      376,
+      511,
+      438
+    ]
+  ],
+  "label_order": [
+    "budget",
+    "investment_grade",
+    "mid_range",
+    "premium"
+  ]
+}
