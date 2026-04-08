@@ -1,0 +1,69 @@
+split,source_class,normalized_source_class,target_class,images_copied
+root,alexandrite,alexandrite,Alexandrite,30
+root,almandine,almandine,Almandine,36
+root,amazonite,amazonite,Amazonite,24
+root,amber,amber,Amber,6
+root,amethyst,amethyst,Amethyst,12
+root,ametrine,ametrine,Ametrine,18
+root,andradite,andradite,Andradite,6
+root,aquamarine,aquamarine,Aquamarine,12
+root,aventurine-green,aventurine_green,Aventurine Green,42
+root,aventurine-yellow,aventurine_yellow,Aventurine Yellow,28
+root,benitoite,benitoite,Benitoite,12
+root,beryl-golden,beryl_golden,Beryl Golden,28
+root,bixbite,bixbite,Bixbite,23
+root,bloodstone,bloodstone,Bloodstone,18
+root,blue-lace-agate,blue_lace_agate,Blue Lace Agate,6
+root,carnelian,carnelian,Carnelian,18
+root,chalcedony,chalcedony,Chalcedony,24
+root,chalcedony-blue,chalcedony_blue,Chalcedony Blue,18
+root,chrome-diopside,chrome_diopside,Chrome Diopside,42
+root,chrysoberyl,chrysoberyl,Chrysoberyl,12
+root,chrysocolla,chrysocolla,Chrysocolla,30
+root,chrysoprase,chrysoprase,Chrysoprase,18
+root,citrine,citrine,Citrine,48
+root,coral,coral,Coral,24
+root,diamond,diamond,Diamond,30
+root,diaspore,diaspore,Diaspore,6
+root,dumortierite,dumortierite,Dumortierite,24
+root,emerald,emerald,Emerald,12
+root,fluorite,fluorite,Fluorite,12
+root,hessonite,hessonite,Hessonite,22
+root,iolite,iolite,Iolite,42
+root,jasper,jasper,Jasper,36
+root,kunzite,kunzite,Kunzite,16
+root,kyanite,kyanite,Kyanite,54
+root,lapis-lazuli,lapis_lazuli,Lapis Lazuli,18
+root,malachite,malachite,Malachite,30
+root,onyx-black,onyx_black,Onyx Black,24
+root,onyx-green,onyx_green,Onyx Green,12
+root,onyx-red,onyx_red,Onyx Red,12
+root,peridot,peridot,Peridot,18
+root,prehnite,prehnite,Prehnite,12
+root,pyrite,pyrite,Pyrite,48
+root,pyrope,pyrope,Pyrope,30
+root,quartz-beer,quartz_beer,Quartz Beer,30
+root,quartz-lemon,quartz_lemon,Quartz Lemon,6
+root,quartz-rutilated,quartz_rutilated,Quartz Rutilated,42
+root,quartz-smoky,quartz_smoky,Quartz Smoky,12
+root,rhodochrosite,rhodochrosite,Rhodochrosite,18
+root,rhodolite,rhodolite,Rhodolite,24
+root,rhodonite,rhodonite,Rhodonite,18
+root,ruby,ruby,Ruby,11
+root,sapphire-blue,sapphire_blue,Sapphire Blue,30
+root,sapphire-pink,sapphire_pink,Sapphire Pink,24
+root,sapphire-purple,sapphire_purple,Sapphire Purple,12
+root,sapphire-yellow,sapphire_yellow,Sapphire Yellow,36
+root,serpentine,serpentine,Serpentine,6
+root,sodalite,sodalite,Sodalite,12
+root,spessartite,spessartite,Spessartite,10
+root,sphene,sphene,Sphene,18
+root,sunstone,sunstone,Sunstone,18
+root,tanzanite,tanzanite,Tanzanite,6
+root,tigers-eye,tigers_eye,Tigers Eye,36
+root,topaz,topaz,Topaz,18
+root,tourmaline,tourmaline,Tourmaline,36
+root,tsavorite,tsavorite,Tsavorite,24
+root,turquoise,turquoise,Turquoise,30
+root,zircon,zircon,Zircon,24
+root,zoisite,zoisite,Zoisite,18

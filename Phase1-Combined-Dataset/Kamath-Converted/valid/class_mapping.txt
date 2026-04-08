@@ -1,0 +1,68 @@
+alexandrite -> Alexandrite
+almandine -> Almandine
+amazonite -> Amazonite
+amber -> Amber
+amethyst -> Amethyst
+ametrine -> Ametrine
+andradite -> Andradite
+aquamarine -> Aquamarine
+aventurine-green -> Aventurine Green
+aventurine-yellow -> Aventurine Yellow
+benitoite -> Benitoite
+beryl-golden -> Beryl Golden
+bixbite -> Bixbite
+bloodstone -> Bloodstone
+blue-lace-agate -> Blue Lace Agate
+carnelian -> Carnelian
+chalcedony -> Chalcedony
+chalcedony-blue -> Chalcedony Blue
+chrome-diopside -> Chrome Diopside
+chrysoberyl -> Chrysoberyl
+chrysocolla -> Chrysocolla
+chrysoprase -> Chrysoprase
+citrine -> Citrine
+coral -> Coral
+diamond -> Diamond
+diaspore -> Diaspore
+dumortierite -> Dumortierite
+emerald -> Emerald
+fluorite -> Fluorite
+hessonite -> Hessonite
+iolite -> Iolite
+jasper -> Jasper
+kunzite -> Kunzite
+kyanite -> Kyanite
+lapis-lazuli -> Lapis Lazuli
+malachite -> Malachite
+onyx-black -> Onyx Black
+onyx-green -> Onyx Green
+onyx-red -> Onyx Red
+peridot -> Peridot
+prehnite -> Prehnite
+pyrite -> Pyrite
+pyrope -> Pyrope
+quartz-beer -> Quartz Beer
+quartz-lemon -> Quartz Lemon
+quartz-rutilated -> Quartz Rutilated
+quartz-smoky -> Quartz Smoky
+rhodochrosite -> Rhodochrosite
+rhodolite -> Rhodolite
+rhodonite -> Rhodonite
+ruby -> Ruby
+sapphire-blue -> Sapphire Blue
+sapphire-pink -> Sapphire Pink
+sapphire-purple -> Sapphire Purple
+sapphire-yellow -> Sapphire Yellow
+serpentine -> Serpentine
+sodalite -> Sodalite
+spessartite -> Spessartite
+sphene -> Sphene
+sunstone -> Sunstone
+tanzanite -> Tanzanite
+tigers-eye -> Tigers Eye
+topaz -> Topaz
+tourmaline -> Tourmaline
+tsavorite -> Tsavorite
+turquoise -> Turquoise
+zircon -> Zircon
+zoisite -> Zoisite
