@@ -287,7 +287,9 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--patience",     type=int,   default=5,
                    help="Early-stopping patience (epochs with no val F1 improvement)")
     p.add_argument("--num_workers",  type=int,   default=8)
-    p.add_argument("--seed",         type=int,   default=42)
+    p.add_argument("--seed",           type=int,   default=42)
+    p.add_argument("--run_id_suffix",  type=str,   default="",
+                   help="Optional suffix appended to run_id (e.g. '__seed1') for multi-seed runs")
     p.add_argument("--resume",       action="store_true",
                    help="Resume from best_model.pth if it exists in output dir")
     return p.parse_args()
@@ -309,7 +311,7 @@ def main() -> None:
 
     # ── output directory ──────────────────────────────────────────────────────
     mode   = "cross" if args.cross_domain else "within"
-    run_id = f"{args.arch}__{args.subset}__{mode}"
+    run_id = f"{args.arch}__{args.subset}__{mode}{args.run_id_suffix}"
     out_dir = Path(args.results_dir) / "training" / run_id
     out_dir.mkdir(parents=True, exist_ok=True)
     ckpt_path = out_dir / "best_model.pth"

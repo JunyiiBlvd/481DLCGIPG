@@ -37,6 +37,8 @@ from torch.optim import AdamW
 from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.utils.data import DataLoader, Dataset
 from torchvision import transforms
+from sklearn.metrics import r2_score
+from scipy.stats import spearmanr
 
 import pandas as pd
 
@@ -248,6 +250,9 @@ def evaluate_test(
     usd_rmse   = float(np.sqrt(((usd_preds - usd_true) ** 2).mean()))
     usd_med_ape = float(np.median(np.abs(usd_preds - usd_true) / usd_true) * 100)  # %
 
+    r2       = float(r2_score(targets_arr, preds_arr))
+    spearman = float(spearmanr(targets_arr, preds_arr).statistic)
+
     return {
         "test_loss":        total_loss / n,
         "test_log_mae":     log_mae,
@@ -255,6 +260,8 @@ def evaluate_test(
         "test_usd_mae":     usd_mae,
         "test_usd_rmse":    usd_rmse,
         "test_usd_med_ape": usd_med_ape,
+        "test_r2":          r2,
+        "test_spearman":    spearman,
         "n_test":           n,
     }
 

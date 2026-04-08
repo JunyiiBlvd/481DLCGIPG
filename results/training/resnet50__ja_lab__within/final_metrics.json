@@ -53,5 +53,7 @@
     "investment_grade",
     "mid_range",
     "premium"
-  ]
+  ],
+  "best_epoch": 26,
+  "epochs_trained": 30
 }
