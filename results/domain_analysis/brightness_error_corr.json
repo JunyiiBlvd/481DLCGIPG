@@ -1,0 +1,98 @@
+{
+  "n": 2000,
+  "n_correct": 330,
+  "accuracy": 0.165,
+  "pred_distribution": {
+    "budget": 0,
+    "investment_grade": 19,
+    "mid_range": 108,
+    "premium": 1873
+  },
+  "true_distribution": {
+    "budget": 515,
+    "investment_grade": 203,
+    "mid_range": 992,
+    "premium": 290
+  },
+  "channel_vs_correct": {
+    "r_mean": {
+      "spearman_rho": 0.1103,
+      "spearman_p": 0.0,
+      "point_biserial_r": 0.1032,
+      "point_biserial_p": 0.0
+    },
+    "g_mean": {
+      "spearman_rho": 0.0881,
+      "spearman_p": 0.0001,
+      "point_biserial_r": 0.085,
+      "point_biserial_p": 0.0001
+    },
+    "b_mean": {
+      "spearman_rho": 0.0896,
+      "spearman_p": 0.0001,
+      "point_biserial_r": 0.079,
+      "point_biserial_p": 0.0004
+    },
+    "r_std": {
+      "spearman_rho": -0.0304,
+      "spearman_p": 0.1736,
+      "point_biserial_r": -0.0268,
+      "point_biserial_p": 0.2316
+    },
+    "g_std": {
+      "spearman_rho": -0.0258,
+      "spearman_p": 0.2491,
+      "point_biserial_r": -0.0219,
+      "point_biserial_p": 0.3267
+    },
+    "b_std": {
+      "spearman_rho": -0.0155,
+      "spearman_p": 0.4872,
+      "point_biserial_r": -0.0115,
+      "point_biserial_p": 0.607
+    },
+    "r_mean_vs_correct_class_prob": {
+      "spearman_rho": 0.1173,
+      "spearman_p": 0.0,
+      "note": "Spearman between r_mean and softmax prob of true class (continuous signal)"
+    }
+  },
+  "per_tier": {
+    "budget": {
+      "n_total": 515,
+      "n_correct": 0,
+      "n_wrong": 515,
+      "accuracy": 0.0,
+      "r_mean_correct_images": null,
+      "r_mean_wrong_images": 171.23
+    },
+    "investment_grade": {
+      "n_total": 203,
+      "n_correct": 1,
+      "n_wrong": 202,
+      "accuracy": 0.0049,
+      "r_mean_correct_images": 167.47,
+      "r_mean_wrong_images": 175.8
+    },
+    "mid_range": {
+      "n_total": 992,
+      "n_correct": 56,
+      "n_wrong": 936,
+      "accuracy": 0.0565,
+      "r_mean_correct_images": 175.79,
+      "r_mean_wrong_images": 173.83,
+      "spearman_rho": 0.0385,
+      "spearman_p": 0.2257
+    },
+    "premium": {
+      "n_total": 290,
+      "n_correct": 273,
+      "n_wrong": 17,
+      "accuracy": 0.9414,
+      "r_mean_correct_images": 177.51,
+      "r_mean_wrong_images": 184.1,
+      "spearman_rho": -0.0995,
+      "spearman_p": 0.0908
+    }
+  }
+}

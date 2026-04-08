@@ -1,0 +1,36 @@
+{
+  "ja_natural": {
+    "test_log_mae": 0.15322847096017603,
+    "test_log_rmse": 0.20789658244055503,
+    "test_usd_mae": 975.8679977779659,
+    "test_usd_rmse": 3082.600235591519,
+    "test_usd_med_ape": 11.530779923638574,
+    "n_test": 16154,
+    "model": "RandomForest",
+    "features": [
+      "carat",
+      "depth_pct",
+      "table_pct",
+      "cut_ord",
+      "color_ord",
+      "clarity_ord"
+    ]
+  },
+  "be_natural": {
+    "test_log_mae": 0.13787567403779036,
+    "test_log_rmse": 0.18193836305073946,
+    "test_usd_mae": 665.3372266902437,
+    "test_usd_rmse": 1887.6723918413393,
+    "test_usd_med_ape": 10.633994332885216,
+    "n_test": 16043,
+    "model": "RandomForest",
+    "features": [
+      "carat",
+      "depth_pct",
+      "table_pct",
+      "cut_ord",
+      "color_ord",
+      "clarity_ord"
+    ]
+  }
+}

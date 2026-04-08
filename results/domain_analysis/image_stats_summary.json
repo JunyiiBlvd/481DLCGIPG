@@ -1,0 +1,142 @@
+{
+  "sample_n_per_domain": 2000,
+  "random_seed": 42,
+  "domains": {
+    "ja_natural": {
+      "n_processed": 2000,
+      "channel_means": {
+        "r": {
+          "mean_of_means": 182.3395085,
+          "std_of_means": 6.9351968935989285
+        },
+        "g": {
+          "mean_of_means": 181.99364119999998,
+          "std_of_means": 6.78462103387796
+        },
+        "b": {
+          "mean_of_means": 180.5668016,
+          "std_of_means": 6.929330986258052
+        }
+      },
+      "channel_stds": {
+        "r": {
+          "mean_of_stds": 42.908334350000004,
+          "std_of_stds": 11.892695820689976
+        },
+        "g": {
+          "mean_of_stds": 42.44114765,
+          "std_of_stds": 11.703012000220419
+        },
+        "b": {
+          "mean_of_stds": 42.25764145,
+          "std_of_stds": 11.325468258822577
+        }
+      },
+      "resolution": {
+        "mean_hw": [
+          600.0,
+          757.0
+        ],
+        "min_hw": [
+          600,
+          757
+        ],
+        "max_hw": [
+          606,
+          765
+        ],
+        "most_common_top3": [
+          [
+            "600x757",
+            1993
+          ],
+          [
+            "606x764",
+            5
+          ],
+          [
+            "606x765",
+            1
+          ]
+        ]
+      },
+      "aspect_ratio": {
+        "mean": 1.26169865,
+        "std": 6.344438584341486e-05,
+        "min": 1.2607,
+        "max": 1.2633
+      }
+    },
+    "be_natural": {
+      "n_processed": 2000,
+      "channel_means": {
+        "r": {
+          "mean_of_means": 174.00008275,
+          "std_of_means": 13.72315656185369
+        },
+        "g": {
+          "mean_of_means": 175.79104035,
+          "std_of_means": 12.811366580449809
+        },
+        "b": {
+          "mean_of_means": 177.85843125000002,
+          "std_of_means": 11.67743620955527
+        }
+      },
+      "channel_stds": {
+        "r": {
+          "mean_of_stds": 35.9098033,
+          "std_of_stds": 8.167394332848342
+        },
+        "g": {
+          "mean_of_stds": 35.85459905,
+          "std_of_stds": 8.178300305615373
+        },
+        "b": {
+          "mean_of_stds": 36.0982298,
+          "std_of_stds": 8.15041220819866
+        }
+      },
+      "resolution": {
+        "mean_hw": [
+          296.0,
+          302.6
+        ],
+        "min_hw": [
+          215,
+          300
+        ],
+        "max_hw": [
+          460,
+          460
+        ],
+        "most_common_top3": [
+          [
+            "300x300",
+            1758
+          ],
+          [
+            "236x300",
+            93
+          ],
+          [
+            "237x300",
+            86
+          ]
+        ]
+      },
+      "aspect_ratio": {
+        "mean": 1.02774125,
+        "std": 0.08174847368552185,
+        "min": 1.0,
+        "max": 1.3953
+      }
+    }
+  },
+  "cohens_d_channel_means": {
+    "r": 0.767,
+    "g": 0.6051,
+    "b": 0.2821
+  },
+  "cohens_d_note": "d = (mean_JA - mean_BE) / pooled_std of per-image channel means. |d| < 0.2 small, 0.2-0.8 medium, >0.8 large."
+}

@@ -1,0 +1,36 @@
+{
+  "ja_natural": {
+    "subset": "ja_natural",
+    "n_test": 16154,
+    "tier_bounds": {
+      "p25": 810.0,
+      "p75": 4890.0,
+      "p90": 13330.0
+    },
+    "macro_f1": 0.736647435705936,
+    "per_class_f1": {
+      "budget": 0.7810743693634818,
+      "mid_range": 0.8132599358780473,
+      "premium": 0.5667090216010165,
+      "investment_grade": 0.7855464159811986
+    },
+    "direct_clf_f1": 0.6724
+  },
+  "be_natural": {
+    "subset": "be_natural",
+    "n_test": 16043,
+    "tier_bounds": {
+      "p25": 990.0,
+      "p75": 4510.0,
+      "p90": 9300.0
+    },
+    "macro_f1": 0.690624673225753,
+    "per_class_f1": {
+      "budget": 0.7773919291102862,
+      "mid_range": 0.7730509863238167,
+      "premium": 0.4971704045273528,
+      "investment_grade": 0.7148853729415563
+    },
+    "direct_clf_f1": 0.6093
+  }
+}
