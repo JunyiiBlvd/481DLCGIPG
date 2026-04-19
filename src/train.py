@@ -217,9 +217,8 @@ def evaluate_test(
         for batch in loader:
             images, labels = batch[0].to(device, non_blocking=True), \
                              batch[1].to(device, non_blocking=True)
-            with autocast("cuda"):
-                logits = model(images)
-                loss   = criterion(logits, labels)
+            logits = model(images)
+            loss   = criterion(logits, labels)
             total_loss  += loss.item() * images.size(0)
             preds        = logits.argmax(dim=1).cpu().numpy()
             all_preds.extend(preds.tolist())

@@ -1,0 +1,41 @@
+{
+  "arch": "efficientnetv2",
+  "source_subset": "ja_lab",
+  "target_subset": "be_lab",
+  "task": "regression_cross",
+  "direction": "ja_lab\u2192be_lab",
+  "target": "log(price_usd)",
+  "best_val_log_mae": 0.2297434779944743,
+  "tier_thresholds": [
+    7.392495719032483,
+    8.515335360745611,
+    9.232680689863006
+  ],
+  "hyperparams": {
+    "epochs_run": 50,
+    "epochs_max": 50,
+    "batch_size": 64,
+    "base_lr": 0.0003,
+    "backbone_lr_scale": 0.1,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "huber_delta": 0.5,
+    "patience": 10
+  },
+  "test_loss": 0.3587727699892221,
+  "test_log_mae": 0.9379101583809742,
+  "test_log_rmse": 1.1812024368322156,
+  "test_usd_mae": 3820.184297120464,
+  "test_usd_rmse": 5293.491621252933,
+  "test_usd_med_ape": 78.11783628446551,
+  "test_r2": -0.41911179504343465,
+  "test_spearman": 0.10249626375042435,
+  "test_tier_macro_f1": 0.19551355500849443,
+  "test_tier_per_class_f1": {
+    "budget": 0.06497807213819028,
+    "mid_range": 0.3971405400534647,
+    "premium": 0.24050047986350548,
+    "investment_grade": 0.0794351279788173
+  },
+  "n_test": 39132
+}
