@@ -1,0 +1,21 @@
+{
+  "arch": "efficientnetv2",
+  "subset": "combined_natural",
+  "task": "regression",
+  "target": "normalized_log_price",
+  "best_val_mae": 0.29342301686535577,
+  "test_mae": 0.2917128830656421,
+  "test_macro_f1": 0.7115247032305883,
+  "thresholds": [
+    -0.620988257233675,
+    0.4124396108021454,
+    1.434336133777501
+  ],
+  "hyperparams": {
+    "epochs_run": 30,
+    "epochs_max": 30,
+    "batch_size": 64,
+    "dropout": 0.3,
+    "patience": 5
+  }
+}

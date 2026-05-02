@@ -1,0 +1,21 @@
+{
+  "arch": "efficientnetv2",
+  "subset": "combined_all",
+  "best_val_f1": 0.6616232749513118,
+  "test_accuracy": 0.6912245832263252,
+  "test_macro_f1": 0.6392093554113182,
+  "per_class_f1": {
+    "budget": 0.7449680633903291,
+    "investment_grade": 0.747016892230019,
+    "mid_range": 0.4347119525473308,
+    "premium": 0.6295088863182249
+  },
+  "hyperparams": {
+    "epochs_run": 26,
+    "epochs_max": 30,
+    "batch_size": 64,
+    "base_lr": 0.0003,
+    "dropout": 0.3,
+    "patience": 10
+  }
+}

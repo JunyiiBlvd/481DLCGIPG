@@ -1,0 +1,27 @@
+{
+  "arch": "vit",
+  "subset": "be_natural",
+  "task": "regression",
+  "target": "log(price_usd)",
+  "best_val_log_mae": 0.40168683140403594,
+  "hyperparams": {
+    "epochs_run": 30,
+    "epochs_max": 30,
+    "batch_size": 64,
+    "base_lr": 0.0003,
+    "backbone_lr_scale": 0.1,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "huber_delta": 0.5,
+    "patience": 5
+  },
+  "test_loss": 0.10959107599460981,
+  "test_log_mae": 0.3949261704399529,
+  "test_log_rmse": 0.5536061724695739,
+  "test_usd_mae": 1923.649504186433,
+  "test_usd_rmse": 5864.279769846667,
+  "test_usd_med_ape": 28.490248821543375,
+  "test_r2": 0.7200561379987201,
+  "test_spearman": 0.8482687983811205,
+  "n_test": 16043
+}

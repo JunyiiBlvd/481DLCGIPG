@@ -140,24 +140,31 @@ def build_dataloader(
 # ── Model factory ─────────────────────────────────────────────────────────────
 
 def build_regression_model(
+    arch: str,
     base_lr: float,
     backbone_lr_scale: float,
     dropout: float,
 ) -> tuple[nn.Module, list[dict]]:
-    """
-    EfficientNetV2-S with the 4-class head swapped for a single linear output.
-    Borrows pretrained backbone from get_model(); rebuilds head and param groups.
-    """
-    model, _ = get_model("efficientnetv2", dropout=dropout)
+    """Any supported arch with its 4-class head swapped for a single linear output."""
+    model, _ = get_model(arch, dropout=dropout)
 
-    in_features = model.classifier[1].in_features  # 1280
-    model.classifier = nn.Sequential(
-        nn.Dropout(p=dropout, inplace=True),
-        nn.Linear(in_features, 1),
-    )
+    if arch == "resnet50":
+        in_features = model.fc[3].in_features
+        model.fc[3] = nn.Linear(in_features, 1)
+        head_key = "fc"
+    elif arch == "efficientnetv2":
+        in_features = model.classifier[1].in_features
+        model.classifier[1] = nn.Linear(in_features, 1)
+        head_key = "classifier"
+    elif arch == "vit":
+        in_features = model.heads.head[1].in_features
+        model.heads.head[1] = nn.Linear(in_features, 1)
+        head_key = "heads"
+    else:
+        raise ValueError(f"Unsupported arch: {arch}")
 
-    head_params     = [p for n, p in model.named_parameters() if "classifier" in n]
-    backbone_params = [p for n, p in model.named_parameters() if "classifier" not in n]
+    head_params     = [p for n, p in model.named_parameters() if head_key in n]
+    backbone_params = [p for n, p in model.named_parameters() if head_key not in n]
     param_groups = [
         {"params": backbone_params, "lr": base_lr * backbone_lr_scale},
         {"params": head_params,     "lr": base_lr},
@@ -280,9 +287,11 @@ def load_checkpoint(model: nn.Module, path: Path, device: torch.device) -> nn.Mo
 # ── CLI ───────────────────────────────────────────────────────────────────────
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="DLCGIPG Stage 2 — EfficientNetV2 regression")
+    p = argparse.ArgumentParser(description="DLCGIPG Stage 2 — regression trainer")
+    p.add_argument("--arch",         required=True,
+                   choices=["resnet50", "efficientnetv2", "vit"])
     p.add_argument("--subset",       required=True,
-                   choices=["ja_natural", "be_natural"],
+                   choices=["ja_natural", "be_natural", "ja_lab", "be_lab"],
                    help="Within-site subset to train on")
     p.add_argument("--data_dir",     required=True)
     p.add_argument("--image_dir_ja", required=True)
@@ -318,7 +327,7 @@ def main() -> None:
         print(f"GPU: {torch.cuda.get_device_name(0)}")
 
     # ── output directory ──────────────────────────────────────────────────────
-    out_dir   = Path(args.results_dir) / "training" / "regression" / "efficientnetv2" / args.subset
+    out_dir   = Path(args.results_dir) / "training" / "regression" / args.arch / args.subset
     out_dir.mkdir(parents=True, exist_ok=True)
     ckpt_path = out_dir / "best_model.pth"
     log_path  = out_dir / "train_log.json"
@@ -346,8 +355,9 @@ def main() -> None:
           f"test={len(test_loader.dataset):,}")
 
     # ── model ─────────────────────────────────────────────────────────────────
-    print("Building EfficientNetV2-S regression model …")
+    print(f"Building {args.arch} regression model …")
     model, param_groups = build_regression_model(
+        arch             = args.arch,
         base_lr          = args.base_lr,
         backbone_lr_scale= args.backbone_lr_scale,
         dropout          = args.dropout,
@@ -355,7 +365,10 @@ def main() -> None:
     model = model.to(device)
     stats = count_params(model)
     print(f"   Params: total={stats['total']:,}  trainable={stats['trainable']:,}")
-    print(f"   Head  : {model.classifier}")
+    if args.arch == "resnet50":       head = model.fc
+    elif args.arch == "efficientnetv2": head = model.classifier
+    else:                               head = model.heads.head
+    print(f"   Head  : {head}")
 
     # ── loss / optimizer / scheduler ──────────────────────────────────────────
     criterion = nn.HuberLoss(delta=args.huber_delta)
@@ -411,7 +424,7 @@ def main() -> None:
 
     sep = "─" * 60
     print(f"\n{sep}")
-    print(f"TEST RESULTS  [efficientnetv2 / {args.subset}]")
+    print(f"TEST RESULTS  [{args.arch} / {args.subset}]")
     print(f"  Log-MAE        : {test_results['test_log_mae']:.4f}")
     print(f"  Log-RMSE       : {test_results['test_log_rmse']:.4f}")
     print(f"  USD MAE        : ${test_results['test_usd_mae']:>10,.0f}")
@@ -422,7 +435,7 @@ def main() -> None:
 
     # ── save ──────────────────────────────────────────────────────────────────
     final_meta = {
-        "arch":           "efficientnetv2",
+        "arch":           args.arch,
         "subset":         args.subset,
         "task":           "regression",
         "target":         "log(price_usd)",

@@ -1,0 +1,52 @@
+{
+  "stage1_ckpt": "/mnt/storage/projects/DLCGIPG/results/training/stage1/best_model.pth",
+  "stage2_ckpt": "/mnt/storage/projects/DLCGIPG/results/training/efficientnetv2__ja_natural__within/best_model.pth",
+  "manifest": "/mnt/storage/projects/DLCGIPG/data/combined_pipeline_manifest.csv",
+  "stage1": {
+    "kaggle_test_accuracy": 0.8177229388670779,
+    "kaggle_diamond_recall": 1.0,
+    "stage2_image_routing_rate": 0.878825775762922,
+    "kaggle_n": 1783,
+    "stage2_n": 89557,
+    "correctly_routed_stage2": 78705
+  },
+  "stage2": {
+    "stage2_accuracy_on_routed": 0.23414014357410584,
+    "stage2_macro_f1_on_routed": 0.18821688590106178,
+    "stage2_per_tier_f1": {
+      "budget": 0.23225806451612904,
+      "investment_grade": 0.0031243343037705034,
+      "mid_range": 0.23988809425300944,
+      "premium": 0.2775970505313381
+    },
+    "end_to_end_accuracy": 0.2057683933137555,
+    "n_routed_to_stage2": 78705,
+    "n_stage2_ground_truth": 89557,
+    "per_subset": {
+      "ja_natural": {
+        "n_total": 16154,
+        "n_routed": 10408,
+        "routing_rate": 0.6442986257273741,
+        "e2e_accuracy": 0.22112170360282282
+      },
+      "be_natural": {
+        "n_total": 16043,
+        "n_routed": 15696,
+        "routing_rate": 0.9783706289347379,
+        "e2e_accuracy": 0.1762139250763573
+      },
+      "ja_lab": {
+        "n_total": 18228,
+        "n_routed": 14654,
+        "routing_rate": 0.803928022822032,
+        "e2e_accuracy": 0.2868114987930656
+      },
+      "be_lab": {
+        "n_total": 39132,
+        "n_routed": 37947,
+        "routing_rate": 0.9697178779515486,
+        "e2e_accuracy": 0.17379638147807422
+      }
+    }
+  }
+}

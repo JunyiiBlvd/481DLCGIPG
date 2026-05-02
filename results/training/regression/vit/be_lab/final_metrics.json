@@ -1,0 +1,27 @@
+{
+  "arch": "vit",
+  "subset": "be_lab",
+  "task": "regression",
+  "target": "log(price_usd)",
+  "best_val_log_mae": 0.4218978886953916,
+  "hyperparams": {
+    "epochs_run": 30,
+    "epochs_max": 30,
+    "batch_size": 64,
+    "base_lr": 0.0003,
+    "backbone_lr_scale": 0.1,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "huber_delta": 0.5,
+    "patience": 5
+  },
+  "test_loss": 0.12273924442113426,
+  "test_log_mae": 0.4256069512865873,
+  "test_log_rmse": 0.5825568359848907,
+  "test_usd_mae": 1818.3195834060414,
+  "test_usd_rmse": 3381.4959835756094,
+  "test_usd_med_ape": 30.153746158789897,
+  "test_r2": 0.6548208564083731,
+  "test_spearman": 0.7815848728482108,
+  "n_test": 39132
+}

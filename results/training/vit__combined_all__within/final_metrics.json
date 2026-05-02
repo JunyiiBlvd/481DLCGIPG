@@ -1,0 +1,21 @@
+{
+  "arch": "vit",
+  "subset": "combined_all",
+  "best_val_f1": 0.6057701550337342,
+  "test_accuracy": 0.653371595743493,
+  "test_macro_f1": 0.5900637581918491,
+  "per_class_f1": {
+    "budget": 0.7082596063525352,
+    "investment_grade": 0.7154565217391304,
+    "mid_range": 0.3730508474576271,
+    "premium": 0.5640187179342617
+  },
+  "hyperparams": {
+    "epochs_run": 26,
+    "epochs_max": 30,
+    "batch_size": 64,
+    "base_lr": 0.0003,
+    "dropout": 0.3,
+    "patience": 10
+  }
+}

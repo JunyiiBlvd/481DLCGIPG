@@ -1,0 +1,27 @@
+{
+  "arch": "resnet50",
+  "subset": "ja_natural",
+  "task": "regression",
+  "target": "log(price_usd)",
+  "best_val_log_mae": 0.3499704091266856,
+  "hyperparams": {
+    "epochs_run": 30,
+    "epochs_max": 30,
+    "batch_size": 64,
+    "base_lr": 0.0003,
+    "backbone_lr_scale": 0.1,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "huber_delta": 0.5,
+    "patience": 5
+  },
+  "test_loss": 0.08762072867537336,
+  "test_log_mae": 0.34837868840325154,
+  "test_log_rmse": 0.45670614574176155,
+  "test_usd_mae": 2305.0893522857923,
+  "test_usd_rmse": 7201.414242971472,
+  "test_usd_med_ape": 27.134629745072054,
+  "test_r2": 0.8685870115959564,
+  "test_spearman": 0.9244089311794748,
+  "n_test": 16154
+}

@@ -1,0 +1,55 @@
+============================================================
+PIPELINE EVALUATION — SINGLE STAGE 2 MODEL (CROSS-SUBSET BASELINE)
+============================================================
+
+NOTE: This run uses a single Stage 2 model (ja_natural within-site) applied
+across all four subsets (ja_natural, be_natural, ja_lab, be_lab). This is a
+cross-domain stress test, not a fair within-site evaluation. The low Stage 2
+accuracy reflects known cross-domain degradation documented in Stage 2
+experiments (Apr 9 session). Stage 1 routing results are valid and reusable.
+See pipeline_report_per_subset_stage2.txt for the fair per-subset evaluation.
+
+Stage 1 checkpoint : /mnt/storage/projects/DLCGIPG/results/training/stage1/best_model.pth
+Stage 2 checkpoint : /mnt/storage/projects/DLCGIPG/results/training/efficientnetv2__ja_natural__within/best_model.pth (applied to ALL subsets)
+Manifest           : /mnt/storage/projects/DLCGIPG/data/combined_pipeline_manifest.csv  (91,340 images)
+
+────────────────────────────────────────────────────────────
+STAGE 1 — Gemstone Species (ResNet50, 68 classes)
+────────────────────────────────────────────────────────────
+  Kaggle test accuracy       : 0.8177
+  Kaggle Diamond recall      : 1.0000
+  JA/BE routing rate         : 0.8788
+  (correctly routed          : 78,705 / 89,557)
+
+────────────────────────────────────────────────────────────
+STAGE 2 — Value Tier (EfficientNetV2-S, 4 classes)
+────────────────────────────────────────────────────────────
+  Accuracy (on routed imgs)  : 0.2341
+  Macro F1 (on routed imgs)  : 0.1882
+  Per-tier F1:
+    budget              : 0.2323
+    investment_grade    : 0.0031
+    mid_range           : 0.2399
+    premium             : 0.2776
+
+────────────────────────────────────────────────────────────
+END-TO-END
+────────────────────────────────────────────────────────────
+  End-to-end accuracy        : 0.2058
+  (correct / total GT        : — / 89,557)
+
+────────────────────────────────────────────────────────────
+PER-SUBSET BREAKDOWN
+────────────────────────────────────────────────────────────
+  ja_natural:
+    routing rate  : 0.6443  (10,408/16,154)
+    e2e accuracy  : 0.2211
+  be_natural:
+    routing rate  : 0.9784  (15,696/16,043)
+    e2e accuracy  : 0.1762
+  ja_lab:
+    routing rate  : 0.8039  (14,654/18,228)
+    e2e accuracy  : 0.2868
+  be_lab:
+    routing rate  : 0.9697  (37,947/39,132)
+    e2e accuracy  : 0.1738

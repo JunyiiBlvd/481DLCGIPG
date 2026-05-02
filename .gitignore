@@ -55,3 +55,12 @@ results/**/*.pth
 results/**/*.log
 results/training/logs/
 results/aggregated/
+results/pipeline_eval/pipeline_eval_detail.csv
+
+# === Generated manifests and combined dataset files ===
+data/combined_pipeline_manifest.csv
+
+# === Stage 1 image dataset (download from Kaggle) ===
+data/Combined-P1-Dataset/train/
+data/Combined-P1-Dataset/valid/
+data/Combined-P1-Dataset/test/
