@@ -1,0 +1,34 @@
+{
+  "method": "global tier thresholds optimized on 50% calibration split, validated on 50% held-out",
+  "random_state": 42,
+  "old_thresholds": [
+    -0.6229052081267248,
+    0.4612883124365984,
+    1.364494091582535
+  ],
+  "new_thresholds": [
+    -0.734592239859418,
+    0.6021525478133837,
+    1.2557235724723794
+  ],
+  "calib_n": 43518,
+  "val_n": 43519,
+  "old_macro_f1_val": 0.6424612007372654,
+  "new_macro_f1_val": 0.6566251043024134,
+  "old_accuracy_val": 0.6670649601323559,
+  "new_accuracy_val": 0.695581240377766,
+  "lift_macro_f1": 0.014163903565147962,
+  "lift_accuracy": 0.028516280245410086,
+  "per_tier_f1_old": {
+    "budget": 0.7615450643776824,
+    "mid_range": 0.6973034758663688,
+    "premium": 0.4978427198987517,
+    "investment_grade": 0.6131535428062588
+  },
+  "per_tier_f1_new": {
+    "budget": 0.7569732118199393,
+    "mid_range": 0.7477895928135242,
+    "premium": 0.47913749649957993,
+    "investment_grade": 0.6426001160766106
+  }
+}

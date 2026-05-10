@@ -1,0 +1,5 @@
+{
+  "rule": "softmax_threshold",
+  "threshold": 0.02,
+  "note": "Diamond softmax prob > threshold; FPR=0 on test set non-diamond images"
+}

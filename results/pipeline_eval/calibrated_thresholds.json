@@ -1,0 +1,15 @@
+{
+  "thresholds": [
+    -0.734592239859418,
+    0.6021525478133837,
+    1.2557235724723794
+  ],
+  "tier_order": [
+    "budget",
+    "mid_range",
+    "premium",
+    "investment_grade"
+  ],
+  "method": "global tier thresholds optimized on 50% calibration split, validated on 50% held-out",
+  "val_macro_f1_lift": 0.014163903565147962
+}

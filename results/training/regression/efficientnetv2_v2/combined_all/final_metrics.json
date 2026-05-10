@@ -1,0 +1,22 @@
+{
+  "out_dir": "/mnt/storage/projects/DLCGIPG/results/training/regression/efficientnetv2_v2/combined_all",
+  "best_epoch": 27,
+  "best_val_macro_f1": 0.6600211870439333,
+  "best_val_mae": 0.34456848933820594,
+  "thresholds": [
+    -0.6229052081267248,
+    0.4612883124365984,
+    1.364494091582535
+  ],
+  "hyperparams": {
+    "epochs": 30,
+    "patience": 5,
+    "batch_size": 64,
+    "num_workers": 8,
+    "lr_backbone": 3e-05,
+    "lr_head": 0.0003,
+    "weight_decay": 0.0001,
+    "seed": 42
+  },
+  "sampler": "WeightedRandomSampler sqrt inverse-frequency"
+}

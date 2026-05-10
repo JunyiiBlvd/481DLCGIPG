@@ -1,0 +1,32 @@
+{
+  "thresholds_per_subset": {
+    "be_lab": [
+      -0.6615952361439148,
+      0.6397920628332315,
+      1.1155400339712462
+    ],
+    "be_natural": [
+      -0.7674337910304974,
+      0.5605256978127636,
+      1.4018466507548077
+    ],
+    "ja_lab": [
+      -0.7493070456219102,
+      0.6979063881701099,
+      1.3466658553469455
+    ],
+    "ja_natural": [
+      -0.7389411064681075,
+      0.39701691637571834,
+      1.2934858471931614
+    ]
+  },
+  "tier_order": [
+    "budget",
+    "mid_range",
+    "premium",
+    "investment_grade"
+  ],
+  "method": "per-subset tier thresholds; coord-descent on 50% calibration split per subset; eval on held-out 50%",
+  "val_macro_f1_lift_over_midpoint": 0.019816703508979794
+}

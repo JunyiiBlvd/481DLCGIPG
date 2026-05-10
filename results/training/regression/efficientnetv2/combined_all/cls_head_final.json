@@ -1,0 +1,21 @@
+{
+  "src_weights": "/mnt/storage/projects/DLCGIPG/results/training/regression/efficientnetv2/combined_all/best_model.pth",
+  "head_weights": "/mnt/storage/projects/DLCGIPG/results/training/regression/efficientnetv2/combined_all/classifier_head.pth",
+  "best_macro_f1": 0.6849133300091726,
+  "best_epoch": 9,
+  "class_weights": {
+    "budget": 0.8679742813110352,
+    "mid_range": 0.6335060000419617,
+    "premium": 1.1517574787139893,
+    "investment_grade": 1.3467622995376587
+  },
+  "hyperparams": {
+    "epochs": 30,
+    "patience": 5,
+    "batch_size": 512,
+    "num_workers": 8,
+    "lr": 0.003,
+    "weight_decay": 0.0001,
+    "seed": 42
+  }
+}

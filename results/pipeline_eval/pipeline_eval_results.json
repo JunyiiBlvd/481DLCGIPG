@@ -1,0 +1,74 @@
+{
+  "thresholds_strategy": "calibrated per-subset (F1-optimal)",
+  "routing_strategy": "softmax threshold (Diamond prob > 0.02)",
+  "thresholds": {
+    "be_lab": [
+      -0.6615952361439148,
+      0.6397920628332315,
+      1.1155400339712462
+    ],
+    "be_natural": [
+      -0.7674337910304974,
+      0.5605256978127636,
+      1.4018466507548077
+    ],
+    "ja_lab": [
+      -0.7493070456219102,
+      0.6979063881701099,
+      1.3466658553469455
+    ],
+    "ja_natural": [
+      -0.7389411064681075,
+      0.39701691637571834,
+      1.2934858471931614
+    ]
+  },
+  "routing_threshold": 0.02,
+  "total_diamond_images": 89557,
+  "total_nondiamond_images": 1767,
+  "stage1_diamond_recall": 0.9976662907422089,
+  "stage1_false_positive_rate": 0.0,
+  "stage2_accuracy": 0.7051528853471818,
+  "stage2_macro_f1": 0.6664405238480454,
+  "stage2_usd_mae": 1739.022972879562,
+  "stage2_usd_median_ape": 25.995524401827108,
+  "end_to_end_accuracy": 0.703507263530489,
+  "per_subset": {
+    "be_lab": {
+      "n": 39132,
+      "stage1_recall": 0.999182254932025,
+      "stage2_macro_f1": 0.6047348835254512,
+      "stage2_accuracy": 0.6564450127877238,
+      "end_to_end_acc": 0.6559082081161198,
+      "usd_mae": 1833.5379801541021,
+      "usd_median_ape": 29.854888714049892
+    },
+    "be_natural": {
+      "n": 16043,
+      "stage1_recall": 0.9986910178894222,
+      "stage2_macro_f1": 0.698522548117485,
+      "stage2_accuracy": 0.731619023842217,
+      "end_to_end_acc": 0.7306613476282491,
+      "usd_mae": 1691.4601474984152,
+      "usd_median_ape": 24.821213697121017
+    },
+    "ja_lab": {
+      "n": 18228,
+      "stage1_recall": 0.9995062541145491,
+      "stage2_macro_f1": 0.712423935156625,
+      "stage2_accuracy": 0.7520171249794171,
+      "end_to_end_acc": 0.7516458196181699,
+      "usd_mae": 912.7894270244453,
+      "usd_median_ape": 19.552396294267268
+    },
+    "ja_natural": {
+      "n": 16154,
+      "stage1_recall": 0.9909000866658413,
+      "stage2_macro_f1": 0.727158827881125,
+      "stage2_accuracy": 0.7442993690260511,
+      "end_to_end_acc": 0.737526309273245,
+      "usd_mae": 2496.17070673079,
+      "usd_median_ape": 27.01118597341213
+    }
+  }
+}

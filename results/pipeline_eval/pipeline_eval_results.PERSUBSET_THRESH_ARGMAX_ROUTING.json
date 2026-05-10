@@ -1,0 +1,72 @@
+{
+  "thresholds_strategy": "calibrated per-subset (F1-optimal)",
+  "thresholds": {
+    "be_lab": [
+      -0.6615952361439148,
+      0.6397920628332315,
+      1.1155400339712462
+    ],
+    "be_natural": [
+      -0.7674337910304974,
+      0.5605256978127636,
+      1.4018466507548077
+    ],
+    "ja_lab": [
+      -0.7493070456219102,
+      0.6979063881701099,
+      1.3466658553469455
+    ],
+    "ja_natural": [
+      -0.7389411064681075,
+      0.39701691637571834,
+      1.2934858471931614
+    ]
+  },
+  "total_diamond_images": 89557,
+  "total_nondiamond_images": 1767,
+  "stage1_diamond_recall": 0.971861496030461,
+  "stage1_false_positive_rate": 0.0,
+  "stage2_accuracy": 0.7029883842503762,
+  "stage2_macro_f1": 0.6646863487200565,
+  "stage2_usd_mae": 1754.2688326424302,
+  "stage2_usd_median_ape": 26.06151922297434,
+  "end_to_end_accuracy": 0.6832073428096073,
+  "per_subset": {
+    "be_lab": {
+      "n": 39132,
+      "stage1_recall": 0.9902381682510477,
+      "stage2_macro_f1": 0.6038345938608294,
+      "stage2_accuracy": 0.6554064516129032,
+      "end_to_end_acc": 0.6490084841050803,
+      "usd_mae": 1837.8483276884679,
+      "usd_median_ape": 29.895218122964913
+    },
+    "be_natural": {
+      "n": 16043,
+      "stage1_recall": 0.9868478464127657,
+      "stage2_macro_f1": 0.6978247856744604,
+      "stage2_accuracy": 0.7309247094492167,
+      "end_to_end_acc": 0.7213114754098361,
+      "usd_mae": 1696.513376924221,
+      "usd_median_ape": 24.841511435701705
+    },
+    "ja_lab": {
+      "n": 18228,
+      "stage1_recall": 0.9817862628922537,
+      "stage2_macro_f1": 0.7123911733741283,
+      "stage2_accuracy": 0.7510616897630755,
+      "end_to_end_acc": 0.7373820495940312,
+      "usd_mae": 919.4203746326584,
+      "usd_median_ape": 19.610189858593834
+    },
+    "ja_natural": {
+      "n": 16154,
+      "stage1_recall": 0.9012628451157608,
+      "stage2_macro_f1": 0.724528834312384,
+      "stage2_accuracy": 0.7401607253245415,
+      "end_to_end_acc": 0.6670793611489414,
+      "usd_mae": 2620.8205838918025,
+      "usd_median_ape": 27.205338989192
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "src_weights": "/mnt/storage/projects/DLCGIPG/results/training/stage1/efficientnetv2/best_model.pth",
+  "out_weights": "/mnt/storage/projects/DLCGIPG/results/training/stage1/efficientnetv2_v2/best_model.pth",
+  "baseline": {
+    "epoch": 0,
+    "phase": "baseline",
+    "multi_acc": 0.7777777777777778,
+    "multi_f1": 0.7568763165816644,
+    "ja_nat_recall": 0.9023333333333333,
+    "ja_nat_correct": 2707,
+    "ja_nat_total": 3000,
+    "composite": 0.8296048249574989
+  },
+  "best_composite": 0.8734678400921747,
+  "best_epoch": 1,
+  "hyperparams": {
+    "epochs": 5,
+    "patience": 2,
+    "batch_size": 64,
+    "num_workers": 8,
+    "ja_aug_n": 3000,
+    "ja_val_n": 3000,
+    "lr_backbone": 1e-05,
+    "lr_head": 0.0001,
+    "weight_decay": 0.0001,
+    "seed": 42
+  }
+}
