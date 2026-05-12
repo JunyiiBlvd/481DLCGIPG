@@ -1,0 +1,74 @@
+                   precision    recall  f1-score   support
+
+      Alexandrite     0.8571    0.5294    0.6545        34
+        Almandine     0.5714    0.4000    0.4706        10
+        Amazonite     0.8621    0.8929    0.8772        28
+            Amber     0.8125    0.8125    0.8125        16
+         Amethyst     0.7778    0.7000    0.7368        10
+         Ametrine     0.8333    1.0000    0.9091        10
+        Andradite     0.7576    0.6579    0.7042        38
+       Aquamarine     0.7812    0.9259    0.8475        27
+ Aventurine Green     0.8800    0.9362    0.9072        47
+Aventurine Yellow     0.9474    0.9000    0.9231        20
+        Benitoite     0.7353    0.8929    0.8065        28
+     Beryl Golden     0.4839    0.7143    0.5769        21
+          Bixbite     0.9655    0.8235    0.8889        34
+       Bloodstone     0.9429    0.7333    0.8250        45
+  Blue Lace Agate     1.0000    1.0000    1.0000        41
+        Carnelian     0.9565    0.7857    0.8627        28
+       Chalcedony     0.7143    1.0000    0.8333        10
+  Chalcedony Blue     0.9091    1.0000    0.9524        20
+  Chrome Diopside     0.5000    1.0000    0.6667         4
+      Chrysoberyl     0.4483    0.4643    0.4561        28
+      Chrysocolla     0.9778    0.9565    0.9670        46
+      Chrysoprase     1.0000    0.9375    0.9677        16
+          Citrine     0.9545    0.7241    0.8235        29
+            Coral     0.2500    0.4000    0.3077        10
+          Diamond     1.0000    1.0000    1.0000        16
+         Diaspore     0.7742    0.7059    0.7385        34
+     Dumortierite     0.5556    1.0000    0.7143        10
+          Emerald     0.9091    0.5882    0.7143        34
+         Fluorite     0.8750    0.8974    0.8861        39
+        Hessonite     1.0000    1.0000    1.0000        19
+           Iolite     0.7188    0.6765    0.6970        34
+           Jasper     0.9000    0.6207    0.7347        29
+          Kunzite     0.9286    0.8125    0.8667        32
+          Kyanite     0.8696    0.5882    0.7018        34
+     Lapis Lazuli     0.9714    0.8500    0.9067        40
+        Malachite     0.8214    0.8214    0.8214        28
+       Onyx Black     0.7500    0.8182    0.7826        22
+       Onyx Green     0.6250    1.0000    0.7692        10
+         Onyx Red     0.9355    0.8529    0.8923        34
+          Peridot     0.6250    0.8696    0.7273        23
+         Prehnite     1.0000    0.9811    0.9905        53
+           Pyrite     0.9394    0.6596    0.7750        47
+           Pyrope     0.7273    0.8571    0.7869        28
+      Quartz Beer     0.9714    1.0000    0.9855        34
+     Quartz Lemon     0.7500    0.9000    0.8182        10
+ Quartz Rutilated     1.0000    0.8696    0.9302        23
+     Quartz Smoky     0.8333    1.0000    0.9091        10
+    Rhodochrosite     0.9565    1.0000    0.9778        22
+        Rhodolite     0.8000    0.8571    0.8276        28
+        Rhodonite     0.8889    1.0000    0.9412        16
+             Ruby     1.0000    0.9655    0.9825        29
+    Sapphire Blue     0.5625    0.6429    0.6000        28
+    Sapphire Pink     0.6400    1.0000    0.7805        16
+  Sapphire Purple     0.9444    0.7727    0.8500        22
+  Sapphire Yellow     0.6364    0.8750    0.7368        16
+       Serpentine     0.9787    1.0000    0.9892        46
+         Sodalite     0.4000    1.0000    0.5714         4
+      Spessartite     0.9333    1.0000    0.9655        14
+           Sphene     0.8000    0.5217    0.6316        46
+         Sunstone     0.5556    1.0000    0.7143        10
+        Tanzanite     0.8571    0.8571    0.8571        28
+       Tigers Eye     0.8723    1.0000    0.9318        41
+            Topaz     0.8605    0.9250    0.8916        40
+       Tourmaline     1.0000    0.8298    0.9070        47
+        Tsavorite     0.4412    0.6818    0.5357        22
+        Turquoise     0.8438    0.9643    0.9000        28
+           Zircon     0.7308    0.8636    0.7917        22
+          Zoisite     1.0000    0.9333    0.9655        15
+
+         accuracy                         0.8289      1783
+        macro avg     0.8103    0.8419    0.8129      1783
+     weighted avg     0.8504    0.8289    0.8304      1783
